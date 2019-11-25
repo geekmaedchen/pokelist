@@ -1,20 +1,20 @@
 import React from 'react'
 import GlobalStyle from './GlobalStyle'
-import Pokemon from './Pokemon'
+import PokemonUserList from './PokemonUserList'
 
 function App() {
   const pokemon = [
     {
-      id: '#001',
+      pokedexId: '#001',
       img: 'https://www.pkparaiso.com/imagenes/shuffle/sprites/001.png',
-      name: 'Bisasam',
+      pokemonName: 'Bisasam',
       region: 'Kanto',
       typen: ['Pflanze', 'Gift'],
     },
     {
-      id: '#002',
+      pokedexId: '#002',
       img: 'https://www.pkparaiso.com/imagenes/shuffle/sprites/002.png',
-      name: 'Bisaknosp',
+      pokemonName: 'Bisaknosp',
       region: 'Kanto',
       typen: ['Pflanze', 'Gift'],
     },
@@ -23,11 +23,11 @@ function App() {
     <div className="App">
       <GlobalStyle />
       {pokemon.map(pokemon => (
-        <Pokemon
-          img={pokemon.img}
+        <PokemonUserList
           key={pokemon.id}
-          id={pokemon.id}
-          name={pokemon.name}
+          pokedexId={pokemon.pokedexId}
+          img={pokemon.img}
+          pokemonName={pokemon.pokemonName}
           region={pokemon.region}
           typen={pokemon.typen}
         />

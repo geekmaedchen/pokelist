@@ -2,23 +2,29 @@ import React from 'react'
 import styled from 'styled-components'
 import Tag from './Tag'
 
-const PokelistStyled = styled.section`
+const PokemonStyled = styled.section`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background: lightgrey;
   border: 2px solid #202020;
   padding: 0.3rem 1rem;
 `
-export default function Pokemon({ id, img, name, region, typen = [] }) {
+export default function Pokemon({
+  pokedexId,
+  img,
+  pokemonName,
+  region,
+  typen = [],
+}) {
   return (
-    <PokelistStyled className="Pokemon">
+    <PokemonStyled>
       <div>
-        <img src={img} alt="Icon" />
+        <img src={img} alt="Pokemon Icon" />
       </div>
       <div>
-        <p className="Card__id">{id}</p>
-        <h3>{name}</h3>
-        <p className="Card__region">{region}</p>
+        <p>{pokedexId}</p>
+        <h3>{pokemonName}</h3>
+        <p>{region}</p>
         {typen.map(typ => (
           <Tag key={typ} text={typ} />
         ))}
@@ -27,6 +33,6 @@ export default function Pokemon({ id, img, name, region, typen = [] }) {
         <h4>Want?</h4>
         <input type="checkbox" />
       </div>
-    </PokelistStyled>
+    </PokemonStyled>
   )
 }

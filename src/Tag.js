@@ -2,14 +2,10 @@ import React from 'react'
 import styled from 'styled-components/macro'
 
 export default function Tag({ text }) {
-  return (
-    <StyleTag color={text} className="Pokemon__tag">
-      {text}
-    </StyleTag>
-  )
+  return <TagStyled color={text}>{text}</TagStyled>
 }
 
-const StyleTag = styled.span`
+const TagStyled = styled.span`
   margin: 1rem 1rem 1rem 0;
   padding: 3px;
   border: 1px solid black;
