@@ -6,13 +6,19 @@ import PokemonUserList from './PokemonUserList'
 
 function App() {
   const [pokedex, setPokedex] = useState(pokedexData)
+  const [isOnlyWantShown, setIsOnlyWantShown] = useState([])
   return (
     <div className="App">
       <GlobalStyle />
       <Header>
-        <a href="FilterWant">Filter Want</a>
+        <button onClick={filterWant}>
+          {isOnlyWantShown ? 'All Pokemon' : 'Wanted Pokemon'}
+        </button>
       </Header>
-      {pokedex.map((pokemon, index) => (
+      {(isOnlyWantShown
+        ? pokedex.filter(pokemon => pokemon.want)
+        : pokedex
+      ).map((pokemon, index) => (
         <PokemonUserList
           key={pokemon.pokedexId}
           pokedexId={pokemon.pokedexId}
@@ -43,6 +49,9 @@ function App() {
       { ...pokemon, lucky: !pokemon.lucky },
       ...pokedex.slice(index + 1),
     ])
+  }
+  function filterWant() {
+    setIsOnlyWantShown(!isOnlyWantShown)
   }
 }
 
