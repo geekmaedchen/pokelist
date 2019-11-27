@@ -1,0 +1,83 @@
+[
+  {
+    "pokedexId": "#001",
+    "img": "https://www.pkparaiso.com/imagenes/shuffle/sprites/001.png",
+    "pokemonName": "Bisasam",
+    "region": "Kanto",
+    "typen": ["Pflanze", "Gift"],
+    "want": false,
+    "lucky": true
+  },
+  {
+    "pokedexId": "#002",
+    "img": "https://www.pkparaiso.com/imagenes/shuffle/sprites/002.png",
+    "pokemonName": "Bisaknosp",
+    "region": "Kanto",
+    "typen": ["Pflanze", "Gift"],
+    "want": true,
+    "lucky": true
+  },
+  {
+    "pokedexId": "#003",
+    "img": "https://www.pkparaiso.com/imagenes/shuffle/sprites/003.png",
+    "pokemonName": "Bisaflor",
+    "region": "Kanto",
+    "typen": ["Pflanze", "Gift"],
+    "want": false,
+    "lucky": false
+  },
+  {
+    "pokedexId": "#155",
+    "img": "https://www.pkparaiso.com/imagenes/shuffle/sprites/155.png",
+    "pokemonName": "Feurigel",
+    "region": "Johto",
+    "typen": ["Feuer"],
+    "want": true,
+    "lucky": false
+  },
+  {
+    "pokedexId": "#156",
+    "img": "https://www.pkparaiso.com/imagenes/shuffle/sprites/156.png",
+    "pokemonName": "Igelavar",
+    "region": "Johto",
+    "typen": ["Feuer"],
+    "want": true,
+    "lucky": false
+  },
+  {
+    "pokedexId": "#157",
+    "img": "https://www.pkparaiso.com/imagenes/shuffle/sprites/157.png",
+    "pokemonName": "Tornupto",
+    "region": "Johto",
+    "typen": ["Feuer"],
+    "want": true,
+    "lucky": false
+  },
+  {
+    "pokedexId": "#258",
+    "img": "https://www.pkparaiso.com/imagenes/shuffle/sprites/258.png",
+    "pokemonName": "Hydropi",
+    "region": "Hoenn",
+    "typen": ["Wasser"],
+    "want": true,
+    "lucky": false
+  },
+  {
+    "pokedexId": "#259",
+    "img": "https://www.pkparaiso.com/imagenes/shuffle/sprites/259.png",
+    "pokemonName": "Moorabble",
+    "region": "Hoenn",
+    "typen": ["Wasser", "Boden"],
+    "want": true,
+    "lucky": false
+  },
+  {
+    "pokedexId": "#260",
+    "img": "https://www.pkparaiso.com/imagenes/shuffle/sprites/260.png",
+    "pokemonName": "Sumpex",
+    "region": "Hoenn",
+    "typen": ["Wasser", "Boden"],
+    "want": true,
+    "lucky": false
+  }
+]
