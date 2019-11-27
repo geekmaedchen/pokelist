@@ -15,6 +15,8 @@ export default function Pokemon({
   pokemonName,
   region,
   typen = [],
+  want,
+  lucky,
 }) {
   return (
     <PokemonStyled>
@@ -31,9 +33,9 @@ export default function Pokemon({
       </div>
       <div>
         <h4>Want?</h4>
-        <input type="checkbox" />
+        <input type="checkbox" checked={want} />
         <h4>Lucky?</h4>
-        <input type="checkbox" />
+        <input type="checkbox" checked={lucky} />
       </div>
     </PokemonStyled>
   )

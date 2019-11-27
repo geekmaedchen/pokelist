@@ -10,12 +10,14 @@ function App() {
       <GlobalStyle />
       {pokedex.map(pokemon => (
         <PokemonUserList
-          key={pokemon.id}
+          key={pokemon.pokedexId}
           pokedexId={pokemon.pokedexId}
           img={pokemon.img}
           pokemonName={pokemon.pokemonName}
           region={pokemon.region}
           typen={pokemon.typen}
+          want={pokemon.want}
+          lucky={pokemon.lucky}
         />
       ))}
     </div>
