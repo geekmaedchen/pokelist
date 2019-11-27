@@ -28,17 +28,17 @@ function App() {
           typen={pokemon.typen}
           want={pokemon.want}
           lucky={pokemon.lucky}
-          toggleWant={() => toggleWant(index)}
-          toggleLucky={() => toggleLucky(index)}
+          toggleWant={() => toggle(index, 'want')}
+          toggleLucky={() => toggle(index, 'lucky')}
         />
       ))}
     </div>
   )
-  function toggleWant(index) {
+  function toggle(index, propertyName) {
     const pokemon = pokedex[index]
     setPokedex([
       ...pokedex.slice(0, index),
-      { ...pokemon, want: !pokemon.want },
+      { ...pokemon, want: !pokemon[propertyName] },
       ...pokedex.slice(index + 1),
     ])
   }
