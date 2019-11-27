@@ -9,7 +9,7 @@ const TagStyled = styled.span`
   margin: 1rem 1rem 1rem 0;
   padding: 3px;
   border: 1px solid black;
-  color: whitesmoke;
+  color: black;
   background-color: ${props => findColor(props.color)};
   border-radius: 8px;
 `
@@ -18,22 +18,22 @@ function findColor(color) {
   const mapping = {
     Normal: 'grey',
     Feuer: 'red',
-    Wasser: 'blue',
-    Elektro: 'yellow',
+    Wasser: 'royalblue',
+    Elektro: 'gold',
     Pflanze: 'green',
-    Flug: 'blue',
-    Käfer: 'green',
-    Gift: 'indigo',
-    Gestein: 'braun',
-    Boden: 'gelbbraun',
-    Kampf: 'rot',
-    Eis: 'hellblau',
-    Psycho: 'pink',
-    Geist: 'lila',
-    Drache: 'lila',
-    Unlicht: 'anthrazit',
-    Stahl: 'grau',
-    Fee: 'pink',
+    Flug: 'skyblue',
+    Käfer: 'yellowgreen',
+    Gift: 'mediumorchid',
+    Gestein: 'tan',
+    Boden: 'peru',
+    Kampf: 'crimson',
+    Eis: 'powderblue',
+    Psycho: 'darkviolet',
+    Geist: 'mediumpurple',
+    Drache: 'slateblue',
+    Unlicht: 'darkgrey',
+    Stahl: 'silver',
+    Fee: 'mistyrose',
   }
   return mapping[color]
 }

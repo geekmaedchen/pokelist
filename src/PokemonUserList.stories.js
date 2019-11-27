@@ -11,7 +11,7 @@ export const PokemonUserListUnchecked = ({
   region = 'Kanto',
   typen = ['Pflanze', 'Gift'],
 }) => (
-  <PokemonStyled>
+  <PokemonStyled pokedexId={pokedexId}>
     <div>
       <img src={img} alt="Pokemon Icon" />
     </div>

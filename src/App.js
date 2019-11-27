@@ -16,7 +16,7 @@ function App() {
       img: 'https://www.pkparaiso.com/imagenes/shuffle/sprites/002.png',
       pokemonName: 'Bisaknosp',
       region: 'Kanto',
-      typen: ['Pflanze', 'Gift'],
+      typen: ['Wasser', 'Gift'],
     },
   ]
   return (
