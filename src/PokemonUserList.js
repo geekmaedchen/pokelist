@@ -32,6 +32,8 @@ export default function Pokemon({
       <div>
         <h4>Want?</h4>
         <input type="checkbox" />
+        <h4>Lucky?</h4>
+        <input type="checkbox" />
       </div>
     </PokemonStyled>
   )

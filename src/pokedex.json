@@ -1,0 +1,65 @@
+[
+  {
+    "pokedexId": "#001",
+    "img": "https://www.pkparaiso.com/imagenes/shuffle/sprites/001.png",
+    "pokemonName": "Bisasam",
+    "region": "Kanto",
+    "typen": ["Pflanze", "Gift"]
+  },
+  {
+    "pokedexId": "#002",
+    "img": "https://www.pkparaiso.com/imagenes/shuffle/sprites/002.png",
+    "pokemonName": "Bisaknosp",
+    "region": "Kanto",
+    "typen": ["Pflanze", "Gift"]
+  },
+  {
+    "pokedexId": "#003",
+    "img": "https://www.pkparaiso.com/imagenes/shuffle/sprites/003.png",
+    "pokemonName": "Bisaflor",
+    "region": "Kanto",
+    "typen": ["Pflanze", "Gift"]
+  },
+  {
+    "pokedexId": "#155",
+    "img": "https://www.pkparaiso.com/imagenes/shuffle/sprites/155.png",
+    "pokemonName": "Feurigel",
+    "region": "Johto",
+    "typen": ["Feuer"]
+  },
+  {
+    "pokedexId": "#156",
+    "img": "https://www.pkparaiso.com/imagenes/shuffle/sprites/156.png",
+    "pokemonName": "Igelavar",
+    "region": "Johto",
+    "typen": ["Feuer"]
+  },
+  {
+    "pokedexId": "#157",
+    "img": "https://www.pkparaiso.com/imagenes/shuffle/sprites/157.png",
+    "pokemonName": "Tornupto",
+    "region": "Johto",
+    "typen": ["Feuer"]
+  },
+  {
+    "pokedexId": "#258",
+    "img": "https://www.pkparaiso.com/imagenes/shuffle/sprites/258.png",
+    "pokemonName": "Hydropi",
+    "region": "Hoenn",
+    "typen": ["Wasser"]
+  },
+  {
+    "pokedexId": "#259",
+    "img": "https://www.pkparaiso.com/imagenes/shuffle/sprites/259.png",
+    "pokemonName": "Moorabble",
+    "region": "Hoenn",
+    "typen": ["Wasser", "Boden"]
+  },
+  {
+    "pokedexId": "#260",
+    "img": "https://www.pkparaiso.com/imagenes/shuffle/sprites/260.png",
+    "pokemonName": "Sumpex",
+    "region": "Hoenn",
+    "typen": ["Wasser", "Boden"]
+  }
+]
