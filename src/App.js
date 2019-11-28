@@ -6,7 +6,7 @@ import PokemonUserList from './PokemonUserList'
 
 function App() {
   const [pokedex, setPokedex] = useState(pokedexData)
-  const [isOnlyWantShown, setIsOnlyWantShown] = useState([])
+  const [isOnlyWantShown, setIsOnlyWantShown] = useState(false)
   return (
     <div className="App">
       <GlobalStyle />
