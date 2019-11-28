@@ -1,37 +1,36 @@
 import React, { useState } from 'react'
-import GlobalStyle from './GlobalStyle'
 import pokedexData from './pokedex.json'
-import Header from './Header'
-import PokemonUserList from './PokemonUserList'
+import { BrowserRouter as Router, Switch, Link, Route } from 'react-router-dom'
+import GlobalStyle from './GlobalStyle'
+import AllPokemon from './AllPokemon'
+import FilterWant from './FilterWant'
 
 function App() {
   const [pokedex, setPokedex] = useState(pokedexData)
-  const [isOnlyWantShown, setIsOnlyWantShown] = useState(false)
+
   return (
     <div className="App">
       <GlobalStyle />
-      <Header>
-        <button onClick={filterWant}>
-          {isOnlyWantShown ? 'All Pokemon' : 'Wanted Pokemon'}
-        </button>
-      </Header>
-      {(isOnlyWantShown
-        ? pokedex.filter(pokemon => pokemon.want)
-        : pokedex
-      ).map((pokemon, index) => (
-        <PokemonUserList
-          key={pokemon.pokedexId}
-          pokedexId={pokemon.pokedexId}
-          img={pokemon.img}
-          pokemonName={pokemon.pokemonName}
-          region={pokemon.region}
-          typen={pokemon.typen}
-          want={pokemon.want}
-          lucky={pokemon.lucky}
-          toggleWant={() => toggleWant(index)}
-          toggleLucky={() => toggleLucky(index)}
-        />
-      ))}
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Link to="/wanted">Wanted Pokemon</Link>
+            <AllPokemon
+              pokedex={pokedex}
+              toggleLucky={toggleLucky}
+              toggleWant={toggleWant}
+            />
+          </Route>
+          <Route path="/wanted">
+            <Link to="/">All Pokemon</Link>
+            <FilterWant
+              pokedex={pokedex}
+              toggleLucky={toggleLucky}
+              toggleWant={toggleWant}
+            />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   )
   function toggleWant(index) {
@@ -49,9 +48,6 @@ function App() {
       { ...pokemon, lucky: !pokemon.lucky },
       ...pokedex.slice(index + 1),
     ])
-  }
-  function filterWant() {
-    setIsOnlyWantShown(!isOnlyWantShown)
   }
 }
 
