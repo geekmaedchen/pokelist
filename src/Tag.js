@@ -6,7 +6,8 @@ export default function Tag({ text }) {
 }
 
 const TagStyled = styled.span`
-  margin: 1rem 1rem 1rem 0;
+  margin: 0 10px 0 0;
+  display: inline-block;
   padding: 3px;
   border: 1px solid black;
   color: black;

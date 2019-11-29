@@ -1,23 +1,23 @@
 import React from 'react'
 import PokemonUserList from './PokemonUserList'
 
-export default function FilterWant({ pokedex, toggleWant, toggleLucky }) {
+export default function FilterWant({ pokedex, toggleIsWant, toggleIsLucky }) {
   return (
     <div>
       {pokedex
-        .filter(pokemon => pokemon.want)
+        .filter(pokemon => pokemon.isWant)
         .map((pokemon, index) => (
           <PokemonUserList
             key={pokemon.pokedexId}
             pokedexId={pokemon.pokedexId}
-            img={pokemon.img}
+            image={pokemon.image}
             pokemonName={pokemon.pokemonName}
             region={pokemon.region}
-            typen={pokemon.typen}
-            want={pokemon.want}
-            lucky={pokemon.lucky}
-            toggleWant={() => toggleWant(index)}
-            toggleLucky={() => toggleLucky(index)}
+            types={pokemon.types}
+            isWant={pokemon.isWant}
+            isLucky={pokemon.isLucky}
+            toggleIsWant={() => toggleIsWant(index)}
+            toggleIsLucky={() => toggleIsLucky(index)}
           />
         ))}
     </div>

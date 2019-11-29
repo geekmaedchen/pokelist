@@ -22,43 +22,43 @@ function App() {
             </Header>
             <AllPokemon
               pokedex={pokedex}
-              toggleLucky={toggleLucky}
-              toggleWant={toggleWant}
+              toggleIsLucky={toggleIsLucky}
+              toggleIsWant={toggleIsWant}
             />
           </Route>
           <Route path="/wanted">
             <Link to="/">All Pokemon</Link>
             <FilterWant
               pokedex={pokedex}
-              toggleLucky={toggleLucky}
-              toggleWant={toggleWant}
+              toggleIsLucky={toggleIsLucky}
+              toggleIsWant={toggleIsWant}
             />
           </Route>
           <Route path="/lucky">
             <Link to="/">All Pokemon</Link>
             <FilterLucky
               pokedex={pokedex}
-              toggleLucky={toggleLucky}
-              toggleWant={toggleWant}
+              toggleIsLucky={toggleIsLucky}
+              toggleIsWant={toggleIsWant}
             />
           </Route>
         </Switch>
       </Router>
     </div>
   )
-  function toggleWant(index) {
+  function toggleIsWant(index) {
     const pokemon = pokedex[index]
     setPokedex([
       ...pokedex.slice(0, index),
-      { ...pokemon, want: !pokemon.want },
+      { ...pokemon, isWant: !pokemon.isWant },
       ...pokedex.slice(index + 1),
     ])
   }
-  function toggleLucky(index) {
+  function toggleIsLucky(index) {
     const pokemon = pokedex[index]
     setPokedex([
       ...pokedex.slice(0, index),
-      { ...pokemon, lucky: !pokemon.lucky },
+      { ...pokemon, isLucky: !pokemon.isLucky },
       ...pokedex.slice(index + 1),
     ])
   }
