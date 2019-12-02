@@ -18,11 +18,7 @@ export default function AllPokemon({
           pokemonName={pokemon.pokemonName}
           region={pokemon.region}
           types={pokemon.types}
-          isWant={
-            me.byId[
-              me.allIds.find(id => me.byId[id].pokemon === pokemon.pokedexId)
-            ].isWant
-          }
+          isWant={pokemon.isWant}
           isLucky={pokemon.isLucky}
           toggleIsWant={() => toggleIsWant(index)}
           toggleIsLucky={() => toggleIsLucky(index)}

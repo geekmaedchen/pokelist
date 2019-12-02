@@ -54,11 +54,11 @@ function App() {
       </Router>
     </div>
   )
-  function toggleIsWant(index) {
+  function toggleIsWant(index, propertyName) {
     const pokemon = pokedex[index]
     setPokedex([
       ...pokedex.slice(0, index),
-      { ...pokemon, isWant: !pokemon.isWant },
+      { ...pokemon, isWant: !pokemon[propertyName] },
       ...pokedex.slice(index + 1),
     ])
   }
