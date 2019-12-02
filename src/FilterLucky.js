@@ -4,7 +4,7 @@ import PokemonUserList from './PokemonUserList'
 export default function FilterLucky({ pokedex, toggleIsWant, toggleIsLucky }) {
   return (
     <div>
-      {pokedex
+      {pokedex.allPokemon
         .filter(pokemon => pokemon.isLucky)
         .map((pokemon, index) => (
           <PokemonUserList

@@ -26,8 +26,8 @@ function App() {
             </Header>
             <AllPokemon
               pokedex={pokedex}
-              toggleIsLucky={toggleIsLucky}
-              toggleIsWant={toggleIsWant}
+              toggleIsWant={() => toggle(pokedex.pokedexId, 'want')}
+              toggleIsLucky={() => toggle(pokedex.pokedexId, 'lucky')}
             />
           </Route>
           <Route path="/wanted">
@@ -36,8 +36,8 @@ function App() {
             </Header>
             <FilterWant
               pokedex={pokedex}
-              toggleIsLucky={toggleIsLucky}
-              toggleIsWant={toggleIsWant}
+              toggleIsWant={() => toggle(pokedex.pokedexId, 'want')}
+              toggleIsLucky={() => toggle(pokedex.pokedexId, 'lucky')}
             />
           </Route>
           <Route path="/lucky">
@@ -46,22 +46,24 @@ function App() {
             </Header>
             <FilterLucky
               pokedex={pokedex}
-              toggleIsLucky={toggleIsLucky}
-              toggleIsWant={toggleIsWant}
+              toggleIsWant={() => toggle(pokedex.pokedexId, 'isWant')}
+              toggleIsLucky={() => toggle(pokedex.pokedexId, 'isLucky')}
             />
           </Route>
         </Switch>
       </Router>
     </div>
   )
-  function toggleIsWant(index, propertyName) {
-    const pokemon = pokedex[index]
+
+  function toggle(propertyName, index) {
+    const pokemon = pokedex.pokedexId[index]
     setPokedex([
       ...pokedex.slice(0, index),
-      { ...pokemon, isWant: !pokemon[propertyName] },
+      { ...pokemon, [propertyName]: !pokemon[propertyName] },
       ...pokedex.slice(index + 1),
     ])
   }
+
   function toggleIsLucky(index) {
     const pokemon = pokedex[index]
     setPokedex([

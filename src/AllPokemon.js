@@ -9,21 +9,23 @@ export default function AllPokemon({
 }) {
   return (
     <div>
-      {pokedex.map((pokemon, index) => (
-        <PokemonUserList
-          key={pokemon.pokedexId}
-          pokedexId={pokemon.pokedexId}
-          id={pokemon.pokedexId}
-          image={pokemon.image}
-          pokemonName={pokemon.pokemonName}
-          region={pokemon.region}
-          types={pokemon.types}
-          isWant={pokemon.isWant}
-          isLucky={pokemon.isLucky}
-          toggleIsWant={() => toggleIsWant(index)}
-          toggleIsLucky={() => toggleIsLucky(index)}
-        />
-      ))}
+      {pokedex.allPokemonIds
+        .map(id => pokedex.allPokemon[id] || { pokemonName: 'unknown Id' + id })
+        .map(pokemon => (
+          <PokemonUserList
+            key={pokemon.pokedexId}
+            pokedexId={pokemon.pokedexId}
+            id={pokemon.pokedexId}
+            image={pokemon.image}
+            pokemonName={pokemon.pokemonName}
+            region={pokemon.region}
+            types={pokemon.types}
+            isWant={pokemon.isWant}
+            isLucky={pokemon.isLucky}
+            toggleIsWant={() => toggleIsWant(pokemon.pokedexId)}
+            toggleIsLucky={() => toggleIsLucky(pokemon.pokedexId)}
+          />
+        ))}
     </div>
   )
 }

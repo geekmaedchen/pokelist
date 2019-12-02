@@ -4,9 +4,9 @@ import PokemonUserList from './PokemonUserList'
 export default function FilterWant({ pokedex, toggleIsWant, toggleIsLucky }) {
   return (
     <div>
-      {pokedex
+      {pokedex.allPokemon
         .filter(pokemon => pokemon.isWant)
-        .map((pokemon, index) => (
+        .map(pokemon => (
           <PokemonUserList
             key={pokemon.pokedexId}
             pokedexId={pokemon.pokedexId}
@@ -16,8 +16,8 @@ export default function FilterWant({ pokedex, toggleIsWant, toggleIsLucky }) {
             types={pokemon.types}
             isWant={pokemon.isWant}
             isLucky={pokemon.isLucky}
-            toggleIsWant={() => toggleIsWant(index)}
-            toggleIsLucky={() => toggleIsLucky(index)}
+            toggleIsWant={() => toggleIsWant(pokedex.pokedexId)}
+            toggleIsLucky={() => toggleIsLucky(pokedex.pokedexId)}
           />
         ))}
     </div>
