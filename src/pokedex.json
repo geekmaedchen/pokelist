@@ -4,7 +4,7 @@
     "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/001.png",
     "pokemonName": "Bisasam",
     "region": "Kanto",
-    "types": ["Pflanze", "Gestein"],
+    "types": ["Pflanze", "Gift"],
     "isWant": false,
     "isLucky": true
   },
@@ -65,7 +65,7 @@
   {
     "pokedexId": "#259",
     "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/259.png",
-    "pokemonName": "Moorabble",
+    "pokemonName": "Moorabbel",
     "region": "Hoenn",
     "types": ["Wasser", "Boden"],
     "isWant": true,
@@ -78,6 +78,15 @@
     "region": "Hoenn",
     "types": ["Wasser", "Boden"],
     "isWant": true,
+    "isLucky": false
+  },
+  {
+    "pokedexId": "#345",
+    "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/345.png",
+    "pokemonName": "Liliep",
+    "region": "Hoenn",
+    "types": ["Gestein", "Pflanze"],
+    "isWant": false,
     "isLucky": false
   }
 ]

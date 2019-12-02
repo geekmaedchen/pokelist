@@ -1,0 +1,11 @@
+{
+  "allIds": ["abcd", ...],
+  "byId": {
+      "abcd": {
+          "pokemon": "#001",
+          "isLucky": true,
+          "isWant": false
+      },
+      ...
+  }
+}
