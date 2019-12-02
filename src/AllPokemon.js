@@ -1,12 +1,7 @@
 import React from 'react'
 import PokemonUserList from './PokemonUserList'
 
-export default function AllPokemon({
-  pokedex,
-  me,
-  toggleIsWant,
-  toggleIsLucky,
-}) {
+export default function AllPokemon({ pokedex, toggle }) {
   return (
     <div>
       {pokedex.allPokemonIds
@@ -22,8 +17,8 @@ export default function AllPokemon({
             types={pokemon.types}
             isWant={pokemon.isWant}
             isLucky={pokemon.isLucky}
-            toggleIsWant={() => toggleIsWant(pokemon.pokedexId)}
-            toggleIsLucky={() => toggleIsLucky(pokemon.pokedexId)}
+            toggleIsWant={() => toggle('isWant', pokemon.pokedexId)}
+            toggleIsLucky={() => toggle('isLucky', pokemon.pokedexId)}
           />
         ))}
     </div>
