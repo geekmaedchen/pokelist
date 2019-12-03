@@ -8,6 +8,7 @@ export default function AllPokemon({ pokedex, toggle }) {
         .map(id => pokedex.allPokemon[id] || { pokemonName: 'unknown Id' + id })
         .map(pokemon => (
           <PokemonUserList
+            pokemon={pokemon}
             key={pokemon.pokedexId}
             pokedexId={pokemon.pokedexId}
             id={pokemon.pokedexId}

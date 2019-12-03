@@ -1,11 +1,10 @@
 {
-  "allIds": ["abcd", ...],
+  "allIds": ["abcd"],
   "byId": {
-      "abcd": {
-          "pokemon": "#001",
-          "isLucky": true,
-          "isWant": false
-      },
-      ...
+    "abcd": {
+      "pokemon": "#001",
+      "isLucky": true,
+      "isWant": false
+    }
   }
 }
