@@ -9,7 +9,7 @@ describe('The Home Page', function() {
 
   it('has correct title', () => {
     // beschreibung, was getestet wird
-    cy.title().should('equal', 'React App')
+    cy.title().should('equal', 'Pokelist')
     //funktion soll Anforderung erfüllen
   })
 
