@@ -10,6 +10,7 @@ const PokemonStyled = styled.section`
   border-top: none;
 
   .ImageColumn {
+    margin-right: 1em;
     display: grid;
     justify-items: center;
     align-items: center;

@@ -6,8 +6,9 @@ import Header from './Header'
 import AllPokemon from './AllPokemon'
 import FilterWant from './FilterWant'
 import FilterLucky from './FilterLucky'
+import Searchbar from './Searchbar.js'
 
-function App() {
+export default function App() {
   const [pokedex, setPokedex] = useState(pokedexData)
 
   return (
@@ -17,51 +18,52 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Header>
-              <Link to="/wanted">Wanted Pokemon</Link>
-              <Link to="/lucky">Lucky Pokemon</Link>
+              <Searchbar />
+              <div className="Links">
+                <Link to="/wanted">Wanted Pokemon</Link>
+                <Link to="/lucky">Lucky Pokemon</Link>
+              </div>
             </Header>
-            <AllPokemon
-              pokedex={pokedex}
-              toggleIsLucky={toggleIsLucky}
-              toggleIsWant={toggleIsWant}
-            />
+            <AllPokemon pokedex={pokedex} toggle={toggle} />
           </Route>
           <Route path="/wanted">
-            <Link to="/">All Pokemon</Link>
-            <FilterWant
-              pokedex={pokedex}
-              toggleIsLucky={toggleIsLucky}
-              toggleIsWant={toggleIsWant}
-            />
+            <Header>
+              <Link to="/">All Pokemon</Link>
+            </Header>
+            <FilterWant pokedex={pokedex} toggle={toggle} />
           </Route>
           <Route path="/lucky">
-            <Link to="/">All Pokemon</Link>
-            <FilterLucky
-              pokedex={pokedex}
-              toggleIsLucky={toggleIsLucky}
-              toggleIsWant={toggleIsWant}
-            />
+            <Header>
+              <Link to="/">All Pokemon</Link>
+            </Header>
+            <FilterLucky pokedex={pokedex} toggle={toggle} />
           </Route>
         </Switch>
       </Router>
     </div>
   )
-  function toggleIsWant(index) {
-    const pokemon = pokedex[index]
-    setPokedex([
-      ...pokedex.slice(0, index),
-      { ...pokemon, isWant: !pokemon.isWant },
-      ...pokedex.slice(index + 1),
-    ])
-  }
-  function toggleIsLucky(index) {
-    const pokemon = pokedex[index]
-    setPokedex([
-      ...pokedex.slice(0, index),
-      { ...pokemon, isLucky: !pokemon.isLucky },
-      ...pokedex.slice(index + 1),
-    ])
-  }
-}
 
-export default App
+  function toggle(propertyName, pokedexId) {
+    const oldPokemon = pokedex.allPokemon[pokedexId]
+    // copy and modify pokemon
+    const pokemon = {
+      ...oldPokemon,
+      [propertyName]: !oldPokemon[propertyName],
+    }
+    // copy all pokemon and overwrite for pokedexId
+    const allPokemon = { ...pokedex.allPokemon, [pokedexId]: pokemon }
+    // copy pokedex and overwrite allPokemon
+    const newPokedex = { ...pokedex, allPokemon: allPokemon }
+
+    setPokedex(newPokedex)
+  }
+
+  //function toggleIsLucky(index) {
+  //  const pokemon = pokedex[index]
+  // setPokedex([
+  //  ...pokedex.slice(0, index),
+  //   { ...pokemon, isLucky: !pokemon.isLucky },
+  //    ...pokedex.slice(index + 1),
+  //   ])
+  // }
+}
