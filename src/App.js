@@ -57,13 +57,4 @@ export default function App() {
 
     setPokedex(newPokedex)
   }
-
-  //function toggleIsLucky(index) {
-  //  const pokemon = pokedex[index]
-  // setPokedex([
-  //  ...pokedex.slice(0, index),
-  //   { ...pokemon, isLucky: !pokemon.isLucky },
-  //    ...pokedex.slice(index + 1),
-  //   ])
-  // }
 }
