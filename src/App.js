@@ -7,6 +7,7 @@ import AllPokemon from './AllPokemon'
 import FilterWant from './FilterWant'
 import FilterLucky from './FilterLucky'
 import Searchbar from './Searchbar.js'
+import Overview from './Overview'
 
 export default function App() {
   const [pokedex, setPokedex] = useState(pokedexData)
@@ -20,11 +21,18 @@ export default function App() {
             <Header>
               <Searchbar />
               <div className="Links">
+                <Link to="/overview">Overview</Link>
                 <Link to="/wanted">Wanted Pokemon</Link>
                 <Link to="/lucky">Lucky Pokemon</Link>
               </div>
             </Header>
             <AllPokemon pokedex={pokedex} toggle={toggle} />
+          </Route>
+          <Route path="/overview">
+            <Header>
+              <Link to="/">All Pokemon</Link>
+            </Header>
+            <Overview />
           </Route>
           <Route path="/wanted">
             <Header>
