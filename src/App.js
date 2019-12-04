@@ -16,34 +16,32 @@ export default function App() {
     <div className="App">
       <GlobalStyle />
       <Router>
-        <Switch>
-          <Route exact path="/">
-            <Header>
+        <Header>
+          <Switch>
+            <Route exact path="/">
               <Searchbar />
               <div className="Links">
                 <Link to="/overview">Overview</Link>
                 <Link to="/wanted">Wanted Pokemon</Link>
                 <Link to="/lucky">Lucky Pokemon</Link>
               </div>
-            </Header>
+            </Route>
+            <Route>
+              <Link to="/">All Pokemon</Link>
+            </Route>
+          </Switch>
+        </Header>
+        <Switch>
+          <Route exact path="/">
             <AllPokemon pokedex={pokedex} toggle={toggle} />
           </Route>
           <Route path="/overview">
-            <Header>
-              <Link to="/">All Pokemon</Link>
-            </Header>
             <Overview />
           </Route>
           <Route path="/wanted">
-            <Header>
-              <Link to="/">All Pokemon</Link>
-            </Header>
             <FilterWant pokedex={pokedex} toggle={toggle} />
           </Route>
           <Route path="/lucky">
-            <Header>
-              <Link to="/">All Pokemon</Link>
-            </Header>
             <FilterLucky pokedex={pokedex} toggle={toggle} />
           </Route>
         </Switch>
