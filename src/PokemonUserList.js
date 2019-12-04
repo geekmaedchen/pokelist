@@ -63,7 +63,7 @@ export default function PokemonUserList({
         ))}
       </div>
       <div className="CustomUserColumn">
-        <label for="Want">
+        <label htmlFor="Want">
           <div className="descriptionCheckbox">Want?</div>
         </label>
         <input
@@ -73,7 +73,7 @@ export default function PokemonUserList({
           onClick={toggleIsWant}
           checked={isWant}
         />
-        <label for="Lucky">
+        <label htmlFor="Lucky">
           <div className="descriptionCheckbox">Lucky?</div>
         </label>
         <input

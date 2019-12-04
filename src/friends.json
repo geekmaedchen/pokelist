@@ -1,6 +1,7 @@
 {
+  "allWantedIds": ["#001", "#002"],
   "allWanted": {
-    "#001": ["Sven", "Julia"],
+    "#001": ["Sven", "Julia", "Andrea"],
     "#002": ["Julia", "Andrea"]
   }
 }
