@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import pokedex from './pokedex.json'
 import friendsData from './friends.json'
 
 export default function Overview() {
@@ -7,16 +7,14 @@ export default function Overview() {
     <div>
       <h2>Hello User!</h2>
       <p>Your friends need these pokemon:</p>
-      {friendsData.allWantedIds.map(id => (
-        <div>{id}</div>
-      ))}
-      <div>
-        {friendsData.allWantedIds
-          .map(id => friendsData.allWanted[id] || [])
-          .map(friends => (
-            <div>{friends.join(', ')}</div>
-          ))}
-      </div>
+      {pokedex.allPokemonIds
+        .map(id => pokedex.allPokemon[id] || { pokemonName: 'unknown Id' + id })
+        .map(pokemon => (
+          <div>
+            {pokemon.pokedexId} {pokemon.pokemonName}&nbsp;
+            {(friendsData.allWanted[pokemon.pokedexId] || []).join(', ')}
+          </div>
+        ))}
     </div>
   )
 }

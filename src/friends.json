@@ -1,7 +1,25 @@
 {
-  "allWantedIds": ["#001", "#002"],
+  "allWantedIds": [
+    "#001",
+    "#002",
+    "#003",
+    "#155",
+    "#156",
+    "#157",
+    "#258",
+    "#259",
+    "#260",
+    "#345"
+  ],
   "allWanted": {
     "#001": ["Sven", "Julia", "Andrea"],
-    "#002": ["Julia", "Andrea"]
+    "#002": ["Julia", "Andrea"],
+    "#003": ["Andrea"],
+    "#155": ["Sven"],
+    "#156": ["Julia"],
+    "#157": ["Sven", "Julia", "Andrea"],
+    "#258": ["Julia", "Andrea"],
+    "#259": ["Andrea"],
+    "#260": ["Sven"]
   }
 }
