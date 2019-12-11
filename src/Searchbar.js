@@ -19,7 +19,7 @@ const SearchbarStyled = styled.div`
   padding: 4px;
   width: 320px;
   height: 2.5rem;
-  margin: 12px auto;
+  margin: 0 0 0 12px;
   border: 4px solid var(--gradientcolordark);
   border-radius: 12px;
   background: var(--white);

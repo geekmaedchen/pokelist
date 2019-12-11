@@ -5,7 +5,7 @@ import Tag from './Tag'
 const PokemonStyled = styled.section`
   display: grid;
   grid-template-columns: 1.5fr 2fr 1fr;
-  background: lightgray;
+  background: white;
   border: 2px solid #202020;
   border-top: none;
 
