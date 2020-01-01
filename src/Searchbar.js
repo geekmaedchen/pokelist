@@ -25,9 +25,11 @@ const SearchbarStyled = styled.div`
   background: var(--white);
 
   input {
+    all: unset;
     background: var(--white);
     font-size: 1rem;
     border-radius: 12px;
+    border: 1px solid black;
     width: 100%;
     margin-left: 5px;
   }

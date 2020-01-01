@@ -29,7 +29,6 @@ export default function App() {
                 <Link to="/wanted">Wanted Pokemon</Link>
                 <Link to="/lucky">Lucky Pokemon</Link>
               </div>
-              <Searchbar />
             </Route>
             <Route>
               <Link to="/">All Pokemon</Link>
@@ -68,4 +67,5 @@ export default function App() {
 
     setPokedex(newPokedex)
   }
+  function onInput() {}
 }

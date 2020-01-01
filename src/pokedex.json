@@ -15,90 +15,90 @@
     "#001": {
       "pokedexId": "#001",
       "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/001.png",
-      "pokemonName": "Bisasam",
+      "pokemonName": "Bulbasaur",
       "region": "Kanto",
-      "types": ["Pflanze", "Gift"],
+      "types": ["Grass", "Poison"],
       "isWant": false,
       "isLucky": true
     },
     "#002": {
       "pokedexId": "#002",
       "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/002.png",
-      "pokemonName": "Bisaknosp",
+      "pokemonName": "Ivysaur",
       "region": "Kanto",
-      "types": ["Pflanze", "Gift"],
+      "types": ["Grass", "Poison"],
       "isWant": true,
       "isLucky": true
     },
     "#003": {
       "pokedexId": "#003",
       "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/003.png",
-      "pokemonName": "Bisaflor",
+      "pokemonName": "Venusaur",
       "region": "Kanto",
-      "types": ["Pflanze", "Gift"],
+      "types": ["Grass", "Poison"],
       "isWant": false,
       "isLucky": false
     },
     "#155": {
       "pokedexId": "#155",
       "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/155.png",
-      "pokemonName": "Feurigel",
+      "pokemonName": "Cyndaquil",
       "region": "Johto",
-      "types": ["Feuer"],
+      "types": ["Fire"],
       "isWant": true,
       "isLucky": false
     },
     "#156": {
       "pokedexId": "#156",
       "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/156.png",
-      "pokemonName": "Igelavar",
+      "pokemonName": "Quilava",
       "region": "Johto",
-      "types": ["Feuer"],
+      "types": ["Fire"],
       "isWant": true,
       "isLucky": false
     },
     "#157": {
       "pokedexId": "#157",
       "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/157.png",
-      "pokemonName": "Tornupto",
+      "pokemonName": "Typhlosion",
       "region": "Johto",
-      "types": ["Feuer"],
+      "types": ["Fire"],
       "isWant": true,
       "isLucky": false
     },
     "#258": {
       "pokedexId": "#258",
       "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/258.png",
-      "pokemonName": "Hydropi",
+      "pokemonName": "Mudkip",
       "region": "Hoenn",
-      "types": ["Wasser"],
+      "types": ["Water"],
       "isWant": true,
       "isLucky": false
     },
     "#259": {
       "pokedexId": "#259",
       "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/259.png",
-      "pokemonName": "Moorabbel",
+      "pokemonName": "Marshtomp",
       "region": "Hoenn",
-      "types": ["Wasser", "Boden"],
+      "types": ["Water", "Ground"],
       "isWant": true,
       "isLucky": false
     },
     "#260": {
       "pokedexId": "#260",
       "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/260.png",
-      "pokemonName": "Sumpex",
+      "pokemonName": "Swampert",
       "region": "Hoenn",
-      "types": ["Wasser", "Boden"],
+      "types": ["Water", "Ground"],
       "isWant": true,
       "isLucky": false
     },
     "#345": {
       "pokedexId": "#345",
       "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/345.png",
-      "pokemonName": "Liliep",
+      "pokemonName": "Lileep",
       "region": "Hoenn",
-      "types": ["Gestein", "Pflanze"],
+      "types": ["Rock", "Grass"],
       "isWant": false,
       "isLucky": false
     }

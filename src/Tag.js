@@ -10,31 +10,31 @@ const TagStyled = styled.span`
   display: inline-block;
   padding: 3px;
   border: 1px solid black;
-  color: black;
-  background-color: ${props => findColor(props.color)};
+  color: ${props => findColors(props.color).color || 'black'};
+  background-color: ${props => findColors(props.color).background};
   border-radius: 8px;
 `
 
-function findColor(color) {
+function findColors(color) {
   const mapping = {
-    Normal: 'grey',
-    Feuer: 'red',
-    Wasser: 'royalblue',
-    Elektro: 'gold',
-    Pflanze: 'green',
-    Flug: 'skyblue',
-    Käfer: 'yellowgreen',
-    Gift: 'mediumorchid',
-    Gestein: 'tan',
-    Boden: 'peru',
-    Kampf: 'crimson',
-    Eis: 'powderblue',
-    Psycho: 'darkviolet',
-    Geist: 'mediumpurple',
-    Drache: 'slateblue',
-    Unlicht: 'darkgrey',
-    Stahl: 'silver',
-    Fee: 'mistyrose',
+    Normal: { background: 'grey', color: 'white' },
+    Fire: { background: 'red', color: 'white' },
+    Water: { background: 'royalblue', color: 'white' },
+    Electric: { background: 'gold' },
+    Grass: { background: 'green', color: 'white' },
+    Flying: { background: 'skyblue' },
+    Bug: { background: 'yellowgreen' },
+    Poison: { background: 'mediumorchid', color: 'white' },
+    Rock: { background: 'tan' },
+    Ground: { background: 'peru', color: 'white' },
+    Fighting: { background: 'crimson', color: 'white' },
+    Ice: { background: 'powderblue' },
+    Psychic: { background: 'darkviolet', color: 'white' },
+    Ghost: { background: 'mediumpurple', color: 'white' },
+    Dragon: { background: 'slateblue', color: 'white' },
+    Dark: { background: 'darkgrey' },
+    Steel: { background: 'silver' },
+    Fairy: { background: 'mistyrose' },
   }
   return mapping[color]
 }
