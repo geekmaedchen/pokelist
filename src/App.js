@@ -22,18 +22,12 @@ export default function App() {
             src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg"
             alt="Pokemon Logo"
           />
-          <Switch>
-            <Route exact path="/">
-              <div className="Links">
-                <Link to="/overview">Overview</Link>
-                <Link to="/wanted">Wanted Pokemon</Link>
-                <Link to="/lucky">Lucky Pokemon</Link>
-              </div>
-            </Route>
-            <Route>
-              <Link to="/">All Pokemon</Link>
-            </Route>
-          </Switch>
+          <div className="Links">
+            <Link to="/overview">Overview</Link>
+            <Link to="/">All</Link>
+            <Link to="/wanted">Wanted</Link>
+            <Link to="/lucky">Lucky</Link>
+          </div>
         </Header>
         <Switch>
           <Route exact path="/">
