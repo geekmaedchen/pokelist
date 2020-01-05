@@ -5,10 +5,13 @@ import Tag from './Tag'
 const PokemonStyled = styled.section`
   display: grid;
   grid-template-columns: 1.5fr 3fr;
-  background: white;
 
   p {
     margin: 0;
+  }
+
+  :last-child .Border {
+    border-bottom: none;
   }
 
   .ImageColumn {
@@ -24,12 +27,13 @@ const PokemonStyled = styled.section`
   .Border {
     display: grid;
     grid-template-columns: 1.3fr 0.6fr;
-    border-bottom: 2px solid lightgrey;
+    border-bottom: 1px solid darkgreen;
   }
 
   .Text {
     margin: 0.3em;
   }
+
   .PokemonName {
     display: block;
     font-size: 1.17em;
