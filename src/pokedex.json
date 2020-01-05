@@ -14,7 +14,7 @@
   "allPokemon": {
     "#001": {
       "pokedexId": "#001",
-      "image": "../src/icons/search.svg",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/001.png",
       "pokemonName": "Bulbasaur",
       "region": "Kanto",
       "types": ["Grass", "Poison"],
