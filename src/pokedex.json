@@ -3,6 +3,32 @@
     "#001",
     "#002",
     "#003",
+    "#004",
+    "#005",
+    "#006",
+    "#007",
+    "#008",
+    "#009",
+    "#010",
+    "#011",
+    "#012",
+    "#013",
+    "#014",
+    "#015",
+    "#016",
+    "#017",
+    "#018",
+    "#019",
+    "#020",
+    "#021",
+    "#022",
+    "#023",
+    "#024",
+    "#025",
+    "#026",
+    "#027",
+    "#028",
+    "#029",
     "#155",
     "#156",
     "#157",
@@ -14,7 +40,7 @@
   "allPokemon": {
     "#001": {
       "pokedexId": "#001",
-      "image": "/images/1.png",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/001.png",
       "pokemonName": "Bulbasaur",
       "region": "Kanto",
       "types": ["Grass", "Poison"],
@@ -36,6 +62,240 @@
       "pokemonName": "Venusaur",
       "region": "Kanto",
       "types": ["Grass", "Poison"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#004": {
+      "pokedexId": "#004",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/004.png",
+      "pokemonName": "Charmander",
+      "region": "Kanto",
+      "types": ["Fire"],
+      "isWant": true,
+      "isLucky": false
+    },
+    "#005": {
+      "pokedexId": "#005",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/005.png",
+      "pokemonName": "Charmeleon",
+      "region": "Kanto",
+      "types": ["Fire"],
+      "isWant": false,
+      "isLucky": true
+    },
+    "#006": {
+      "pokedexId": "#006",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/006.png",
+      "pokemonName": "Charizard",
+      "region": "Kanto",
+      "types": ["Fire", "Flying"],
+      "isWant": true,
+      "isLucky": true
+    },
+    "#007": {
+      "pokedexId": "#007",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/007.png",
+      "pokemonName": "Squirtle",
+      "region": "Kanto",
+      "types": ["Water"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#008": {
+      "pokedexId": "#008",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/008.png",
+      "pokemonName": "Wartortle",
+      "region": "Kanto",
+      "types": ["Water"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#009": {
+      "pokedexId": "#009",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/009.png",
+      "pokemonName": "Blastoise",
+      "region": "Kanto",
+      "types": ["Water"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#010": {
+      "pokedexId": "#010",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/010.png",
+      "pokemonName": "Caterpie",
+      "region": "Kanto",
+      "types": ["Bug"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#011": {
+      "pokedexId": "#011",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/011.png",
+      "pokemonName": "Metapod",
+      "region": "Kanto",
+      "types": ["Bug"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#012": {
+      "pokedexId": "#012",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/012.png",
+      "pokemonName": "Butterfree",
+      "region": "Kanto",
+      "types": ["Bug", "Flying"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#013": {
+      "pokedexId": "#013",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/013.png",
+      "pokemonName": "Weedle",
+      "region": "Kanto",
+      "types": ["Bug", "Poison"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#014": {
+      "pokedexId": "#014",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/014.png",
+      "pokemonName": "Kakuna",
+      "region": "Kanto",
+      "types": ["Bug", "Poison"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#015": {
+      "pokedexId": "#015",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/015.png",
+      "pokemonName": "Beedrill",
+      "region": "Kanto",
+      "types": ["Bug", "Poison"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#016": {
+      "pokedexId": "#016",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/016.png",
+      "pokemonName": "Pidgey",
+      "region": "Kanto",
+      "types": ["Normal", "Flying"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#017": {
+      "pokedexId": "#017",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/017.png",
+      "pokemonName": "Pidgeotto",
+      "region": "Kanto",
+      "types": ["Normal", "Flying"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#018": {
+      "pokedexId": "#018",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/018.png",
+      "pokemonName": "Pidgeot",
+      "region": "Kanto",
+      "types": ["Normal", "Flying"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#019": {
+      "pokedexId": "#019",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/019.png",
+      "pokemonName": "Rattata",
+      "region": "Kanto",
+      "types": ["Normal"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#020": {
+      "pokedexId": "#020",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/020.png",
+      "pokemonName": "Raticate",
+      "region": "Kanto",
+      "types": ["Normal"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#021": {
+      "pokedexId": "#021",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/021.png",
+      "pokemonName": "Spearow",
+      "region": "Kanto",
+      "types": ["Normal", "Flying"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#022": {
+      "pokedexId": "#022",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/022.png",
+      "pokemonName": "Fearow",
+      "region": "Kanto",
+      "types": ["Normal", "Flying"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#023": {
+      "pokedexId": "#023",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/023.png",
+      "pokemonName": "Ekans",
+      "region": "Kanto",
+      "types": ["Poison"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#024": {
+      "pokedexId": "#024",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/024.png",
+      "pokemonName": "Arbok",
+      "region": "Kanto",
+      "types": ["Poison"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#025": {
+      "pokedexId": "#025",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/025.png",
+      "pokemonName": "Pikachu",
+      "region": "Kanto",
+      "types": ["Electric"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#026": {
+      "pokedexId": "#026",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/026.png",
+      "pokemonName": "Raichu",
+      "region": "Kanto",
+      "types": ["Electric"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#027": {
+      "pokedexId": "#027",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/027.png",
+      "pokemonName": "Sandshrew",
+      "region": "Kanto",
+      "types": ["Ground"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#028": {
+      "pokedexId": "#028",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/028.png",
+      "pokemonName": "Sandslash",
+      "region": "Kanto",
+      "types": ["Ground"],
+      "isWant": false,
+      "isLucky": false
+    },
+    "#029": {
+      "pokedexId": "#029",
+      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/029.png",
+      "pokemonName": "Nidoran ♀",
+      "region": "Kanto",
+      "types": ["Poison"],
       "isWant": false,
       "isLucky": false
     },

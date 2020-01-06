@@ -6,7 +6,6 @@ import Header from './Header'
 import AllPokemon from './AllPokemon'
 import FilterWant from './FilterWant'
 import FilterLucky from './FilterLucky'
-import Searchbar from './Searchbar.js'
 import Overview from './Overview'
 
 export default function App() {
@@ -20,9 +19,9 @@ export default function App() {
           <img
             className="Logo"
             src={require('../src/icons/PokeList.png')}
-            width="330"
+            width="300"
             /*"https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg"*/
-            alt="Pokemon Logo"
+            alt="PokeList-App-Logo"
           />
           <div className="Links">
             <Link to="/overview">Overview</Link>
@@ -63,5 +62,4 @@ export default function App() {
 
     setPokedex(newPokedex)
   }
-  function onInput() {}
 }

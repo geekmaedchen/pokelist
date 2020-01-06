@@ -90,6 +90,7 @@ export default function PokemonUserList({
             name="Want"
             onClick={toggleIsWant}
             checked={isWant}
+            onChange={() => {}}
           />
           <label htmlFor="Lucky">
             <div className="descriptionCheckbox">Lucky?</div>
@@ -100,6 +101,7 @@ export default function PokemonUserList({
             name="Lucky"
             onClick={toggleIsLucky}
             checked={isLucky}
+            onChange={() => {}}
           />
         </div>
       </div>
