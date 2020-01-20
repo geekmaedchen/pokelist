@@ -88,9 +88,8 @@ export default function PokemonUserList({
             type="checkbox"
             id="Want"
             name="Want"
-            onClick={toggleIsWant}
+            onChange={toggleIsWant}
             checked={isWant}
-            onChange={() => {}}
           />
           <label htmlFor="Lucky">
             <div className="descriptionCheckbox">Lucky?</div>
@@ -99,9 +98,8 @@ export default function PokemonUserList({
             type="checkbox"
             id="Lucky"
             name="Lucky"
-            onClick={toggleIsLucky}
+            onChange={toggleIsLucky}
             checked={isLucky}
-            onChange={() => {}}
           />
         </div>
       </div>

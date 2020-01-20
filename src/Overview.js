@@ -2,6 +2,7 @@ import React from 'react'
 import pokedex from './pokedex.json'
 import friendsData from './friends.json'
 import styled from 'styled-components/macro'
+import Filter from './Filter'
 
 export default function Overview() {
   const TableStyled = styled.table`
@@ -22,6 +23,7 @@ export default function Overview() {
   return (
     <div>
       <h2>Hello Anja!</h2>
+      <Filter />
       <p>Your friends need these pokemon:</p>
       <TableStyled>
         <thead>
