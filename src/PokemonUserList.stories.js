@@ -10,7 +10,7 @@ export const PokemonUserListUnchecked = () => (
       image={'https://www.pkparaiso.com/imagenes/shuffle/sprites/001.png'}
       pokemonName={'Bisasam'}
       region={'Kanto'}
-      types={['Pflanze', 'Gift']}
+      types={['Grass', 'Poison']}
       isWant={false}
       isLucky={false}
     />
@@ -24,7 +24,7 @@ export const PokemonUserListChecked = () => (
       image={'https://www.pkparaiso.com/imagenes/shuffle/sprites/001.png'}
       pokemonName={'Bisasam'}
       region={'Kanto'}
-      types={['Pflanze', 'Gift']}
+      types={['Grass', 'Poison']}
       isWant={true}
       isLucky={true}
     />

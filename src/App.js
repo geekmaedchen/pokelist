@@ -6,7 +6,6 @@ import Header from './Header'
 import AllPokemon from './AllPokemon'
 import FilterWant from './FilterWant'
 import FilterLucky from './FilterLucky'
-import Searchbar from './Searchbar.js'
 import Overview from './Overview'
 
 export default function App() {
@@ -17,19 +16,18 @@ export default function App() {
       <GlobalStyle />
       <Router>
         <Header>
-          <Switch>
-            <Route exact path="/">
-              <Searchbar />
-              <div className="Links">
-                <Link to="/overview">Overview</Link>
-                <Link to="/wanted">Wanted Pokemon</Link>
-                <Link to="/lucky">Lucky Pokemon</Link>
-              </div>
-            </Route>
-            <Route>
-              <Link to="/">All Pokemon</Link>
-            </Route>
-          </Switch>
+          <img
+            className="Logo"
+            src={require('../src/icons/PokeList.png')}
+            width="300"
+            alt="PokeList-App-Logo"
+          />
+          <div className="Links">
+            <Link to="/overview">Overview</Link>
+            <Link to="/">All</Link>
+            <Link to="/wanted">Wanted</Link>
+            <Link to="/lucky">Lucky</Link>
+          </div>
         </Header>
         <Switch>
           <Route exact path="/">
