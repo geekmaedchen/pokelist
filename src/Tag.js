@@ -11,30 +11,30 @@ const TagStyled = styled.span`
   padding: 3px;
   border: 1px solid black;
   color: ${props => findColors(props.color).color || 'black'};
-  background-color: ${props => findColors(props.color).background};
+  background-color: ${props => findColors(props.color).background || 'white'};
   border-radius: 8px;
 `
 
 function findColors(color) {
   const mapping = {
-    Normal: { background: 'grey', color: 'white' },
-    Fire: { background: 'red', color: 'white' },
-    Water: { background: 'royalblue', color: 'white' },
-    Electric: { background: 'gold' },
-    Grass: { background: 'green', color: 'white' },
-    Flying: { background: 'skyblue' },
-    Bug: { background: 'yellowgreen' },
-    Poison: { background: 'mediumorchid', color: 'white' },
-    Rock: { background: 'tan' },
-    Ground: { background: 'peru', color: 'white' },
-    Fighting: { background: 'crimson', color: 'white' },
-    Ice: { background: 'powderblue' },
-    Psychic: { background: 'darkviolet', color: 'white' },
-    Ghost: { background: 'mediumpurple', color: 'white' },
-    Dragon: { background: 'slateblue', color: 'white' },
-    Dark: { background: 'darkgrey' },
-    Steel: { background: 'silver' },
-    Fairy: { background: 'mistyrose' },
+    normal: { background: 'grey', color: 'white' },
+    fire: { background: 'red', color: 'white' },
+    water: { background: 'royalblue', color: 'white' },
+    electric: { background: 'gold' },
+    grass: { background: 'green', color: 'white' },
+    flying: { background: 'skyblue' },
+    bug: { background: 'yellowgreen' },
+    poison: { background: 'mediumorchid', color: 'white' },
+    rock: { background: 'tan' },
+    ground: { background: 'peru', color: 'white' },
+    fighting: { background: 'crimson', color: 'white' },
+    ice: { background: 'powderblue' },
+    psychic: { background: 'darkviolet', color: 'white' },
+    ghost: { background: 'mediumpurple', color: 'white' },
+    dragon: { background: 'slateblue', color: 'white' },
+    dark: { background: 'darkgrey' },
+    steel: { background: 'silver' },
+    fairy: { background: 'mistyrose' },
   }
   return mapping[color]
 }

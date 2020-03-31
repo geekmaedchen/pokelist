@@ -3,10 +3,11 @@ import pokedexData from './pokedex.json'
 import { BrowserRouter as Router, Switch, Link, Route } from 'react-router-dom'
 import GlobalStyle from './GlobalStyle'
 import Header from './Header'
+import Overview from './Overview'
 import AllPokemon from './AllPokemon'
 import FilterWant from './FilterWant'
 import FilterLucky from './FilterLucky'
-import Overview from './Overview'
+import Login from './Login'
 
 export default function App() {
   const [pokedex, setPokedex] = useState(pokedexData)
@@ -41,6 +42,9 @@ export default function App() {
           </Route>
           <Route path="/lucky">
             <FilterLucky pokedex={pokedex} toggle={toggle} />
+          </Route>
+          <Route path="/login">
+            <Login />
           </Route>
         </Switch>
       </Router>
