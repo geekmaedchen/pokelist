@@ -36,17 +36,35 @@ export default class Login extends Component {
       this.state.formControls.username.value === 'user' &&
       this.state.formControls.password.value === '1234'
     ) {
-      alert('You are logged in')
+      alert('You logged in')
     } else {
       alert('Wrong Password')
     }
+
+  }
+  submitFormHandlerNew = event => {
+    event.preventDefault()
+
+    let username = 'john_doe'
+    let password = 'monkey'
+    let url = 'https://trading-api.pokemongo.hamburg/1/session'
+    let headers = new Headers()
+    headers.set('Authorization', 'Basic ' + btoa(`${username}:${password}`))
+    fetch(url,{mode: 'cors', method: 'POST', headers: headers})
+        .then(response => {
+            console.log("status code:", response.status)
+            console.log("response body", response.body)
+            return response
+        }).catch(error => {
+            console.error(error)
+        })
   }
 
   render() {
     return (
       <div>
         <h1>Login</h1>
-        <form id="login" onSubmit={this.submitFormHandler}>
+        <form id="login" onSubmit={this.submitFormHandlerNew}>
           <input
             type="text"
             name="username"
