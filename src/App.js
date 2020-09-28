@@ -8,6 +8,7 @@ import AllPokemon from './AllPokemon'
 import FilterWant from './FilterWant'
 import FilterLucky from './FilterLucky'
 import Login from './Login'
+import SignUp from './SignUp'
 
 export default function App() {
   const [pokedex, setPokedex] = useState(pokedexData)
@@ -45,6 +46,11 @@ export default function App() {
           </Route>
           <Route path="/login">
             <Login />
+          </Route>
+          <Route>
+            <Route path="/signup">
+              <SignUp />
+            </Route>
           </Route>
         </Switch>
       </Router>

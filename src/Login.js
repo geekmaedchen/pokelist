@@ -69,7 +69,7 @@ export default class Login extends Component {
             type="text"
             name="username"
             id="username-field"
-            class="login-form-field"
+            className="login-form-field"
             placeholder="Username"
             value={this.state.formControls.username.value}
             onChange={this.changeHandler}
@@ -78,7 +78,7 @@ export default class Login extends Component {
             type="password"
             name="password"
             id="password"
-            class="login-form-field"
+            className="login-form-field"
             placeholder="Password"
             value={this.state.formControls.password.value}
             onChange={this.changeHandler}
