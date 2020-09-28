@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Link, Route } from 'react-router-dom'
 import GlobalStyle from './GlobalStyle'
 import Header from './Header'
 import Overview from './Overview'
+import Filter from './filter'
 import AllPokemon from './AllPokemon'
 import FilterWant from './FilterWant'
 import FilterLucky from './FilterLucky'
@@ -30,6 +31,7 @@ export default function App() {
             <Link to="/wanted">Wanted</Link>
             <Link to="/lucky">Lucky</Link>
           </div>
+          <div><Filter></Filter></div>
         </Header>
         <Switch>
           <Route exact path="/">
