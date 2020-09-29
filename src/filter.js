@@ -1,13 +1,28 @@
-import React from 'react'
+import React, {Component} from 'react'
 
 
-export default function filter() {
-  return (
+export default class Filter extends Component {
+    constructor() {
+        super()
+        this.handleChange = this.handleChange.bind(this)
+        this.state = {selectValue: ''}
+    }
+
+handleChange = event => {
+    event.preventDefault()
+    if (event.target.options[0].selected === true) {
+        console.log('No region')
+    }
+    this.setState({selectValue:event.target.value})
+} 
+
+render() {
+    var message = 'You selected ' + this.state.selectValue
+    return (
       <div>
-          <form name='regions'>
           <label for="region-select">Choose a region:</label>
 
-            <select onChange={showNext} name="region" id="region-select">
+            <select name="region" id="region-select" value={this.state.selectValue} onChange={this.handleChange}>
                 <option value="">--Please choose an option--</option>
                 <option value="kanto">Kanto</option>
                 <option value="johto">Johto</option>
@@ -16,15 +31,8 @@ export default function filter() {
                 <option value="unova">Unova</option>
                 <option value="galar">Galar</option>
             </select>
-        </form>
+        <p>{message}</p>
       </div>
-  )
-  function showNext() {
-      if (document.regions.region.options[0].selected === true) {
-          console.log('No region')
-          return
-      }
-      /* Rausfinden wie man nun den selected.value auslesen kann */
-      console.log(document.regions.region.options)
-  }
+        )
+    }
 }
