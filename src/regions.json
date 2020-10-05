@@ -1,0 +1,19 @@
+{"allRegions": [
+    "kanto", 
+    "johto", 
+    "hoenn", 
+    "sinnoh", 
+    "unova", 
+    "kalos", 
+    "alola", 
+    "galar"
+], 
+    "kanto": {"name": "Kanto", "gen": 1},
+    "johto": {"name": "Johto", "gen": 2},
+    "hoenn": {"name": "Hoenn", "gen": 3},
+    "sinnoh": {"name": "Sinnoh", "gen": 4},
+    "unova": {"name": "Einall", "gen": 5},
+    "kalos": {"name": "Kalos", "gen": 6},
+    "alola": {"name": "Alola", "gen": 7},
+    "galar": {"name": "Galar", "gen": 8}
+}

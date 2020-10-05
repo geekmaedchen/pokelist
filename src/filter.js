@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-
+import regions from './regions.json'
 
 export default class Filter extends Component {
     constructor() {
@@ -17,22 +17,29 @@ handleChange = event => {
 } 
 
 render() {
-    var message = 'You selected ' + this.state.selectValue
+    const selected = this.state.selectValue
     return (
       <div>
-          <label for="region-select">Choose a region:</label>
+          <label htmlFor="region-select">Choose a region:</label>
 
-            <select name="region" id="region-select" value={this.state.selectValue} onChange={this.handleChange}>
+            <select name="region" id="region-select" value={selected} onChange={this.handleChange}>
                 <option value="">--Please choose an option--</option>
+                {regions.allRegions.map(region => (
+                    
+                <option key={region} value={region}>{regions[region].name}</option>))}
+                
+
+            </select>
+        <p>{selected ? "You selected " + regions[selected].name : ""}</p>
+      </div>
+        )
+    }
+                /*
                 <option value="kanto">Kanto</option>
                 <option value="johto">Johto</option>
                 <option value="hoenn">Hoenn</option>
                 <option value="sinnoh">Sinnoh</option>
                 <option value="unova">Unova</option>
                 <option value="galar">Galar</option>
-            </select>
-        <p>{message}</p>
-      </div>
-        )
-    }
+                */
 }
