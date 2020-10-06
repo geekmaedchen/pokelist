@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import Tag from './Tag'
+import regions from './regions.json'
 
 const PokemonStyled = styled.section`
   display: grid;
@@ -75,7 +76,7 @@ export default function PokemonUserList({
         <div className="Text">
           <p>{pokedexId}</p>
           <p className="PokemonName">{pokemonName}</p>
-          <p>{region}</p>
+          <p>{regions[region].name}</p>
           {types.map(typ => (
             <Tag key={typ} text={typ} />
           ))}

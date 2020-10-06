@@ -1,7 +1,6 @@
-## 05.10.2020
-```
-const regions = {all: ["kanto", "johto", ...], kanto: {name: "Kanto", gen: 1}, ...}.json
-```
-1. Aufgabe: Options über map for each sucht sich die region selbt und ist über das ObjektNameProperty dann großgeschrieben
+## 06.10.2020
 
-2. Aufgabe: Auch für Pokelist verwenden
+1. Aufgabe: regions.json auch für Pokelist verwenden
+    -> Wo am besten Funktion einfügen?
+    -> Vergleich zwischen pokemon.region und regions.region oder Mapping?
+    -> eigentlich such ich den gleichen von regions.region. Wie?
