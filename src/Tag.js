@@ -1,8 +1,9 @@
 import React from 'react'
 import styled from 'styled-components/macro'
+import typeNames from './typeNames.json'
 
 export default function Tag({ text }) {
-  return <TagStyled color={text}>{text}</TagStyled>
+  return <TagStyled color={text} className={text}>{typeNames[text].name}</TagStyled>
 }
 
 const TagStyled = styled.span`
@@ -13,6 +14,8 @@ const TagStyled = styled.span`
   color: ${props => findColors(props.color).color || 'black'};
   background-color: ${props => findColors(props.color).background || 'white'};
   border-radius: 8px;
+
+  .normal {background: green}
 `
 
 function findColors(color) {

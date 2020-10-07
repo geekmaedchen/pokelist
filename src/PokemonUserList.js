@@ -76,7 +76,7 @@ export default function PokemonUserList({
         <div className="Text">
           <p>{pokedexId}</p>
           <p className="PokemonName">{pokemonName}</p>
-          <p>{regions[region].name}</p>
+  <p>{regions[region].name + ", Gen " + regions[region].gen}</p>
           {types.map(typ => (
             <Tag key={typ} text={typ} />
           ))}
