@@ -1,0 +1,3262 @@
+{
+    "allUserPokemonIds": [
+      "#001",
+      "#002",
+      "#003",
+      "#004",
+      "#005",
+      "#006",
+      "#007",
+      "#008",
+      "#009",
+      "#010",
+      "#011",
+      "#012",
+      "#013",
+      "#014",
+      "#015",
+      "#016",
+      "#017",
+      "#018",
+      "#019",
+      "#020",
+      "#021",
+      "#022",
+      "#023",
+      "#024",
+      "#025",
+      "#026",
+      "#027",
+      "#028",
+      "#029",
+      "#030",
+      "#031",
+      "#032",
+      "#033",
+      "#034",
+      "#035",
+      "#036",
+      "#037",
+      "#038",
+      "#039",
+      "#040",
+      "#041",
+      "#042",
+      "#043",
+      "#044",
+      "#045",
+      "#046",
+      "#047",
+      "#048",
+      "#049",
+      "#050",
+      "#051",
+      "#052",
+      "#053",
+      "#054",
+      "#055",
+      "#056",
+      "#057",
+      "#058",
+      "#059",
+      "#060",
+      "#061",
+      "#062",
+      "#063",
+      "#064",
+      "#065",
+      "#066",
+      "#067",
+      "#068",
+      "#069",
+      "#070",
+      "#071",
+      "#072",
+      "#073",
+      "#074",
+      "#075",
+      "#076",
+      "#077",
+      "#078",
+      "#079",
+      "#080",
+      "#081",
+      "#082",
+      "#083",
+      "#084",
+      "#085",
+      "#086",
+      "#087",
+      "#088",
+      "#089",
+      "#090",
+      "#091",
+      "#092",
+      "#093",
+      "#094",
+      "#095",
+      "#096",
+      "#097",
+      "#098",
+      "#099",
+      "#100",
+      "#101",
+      "#102",
+      "#103",
+      "#104",
+      "#105",
+      "#106",
+      "#107",
+      "#108",
+      "#109",
+      "#110",
+      "#111",
+      "#112",
+      "#113",
+      "#114",
+      "#115",
+      "#116",
+      "#117",
+      "#118",
+      "#119",
+      "#120",
+      "#121",
+      "#122",
+      "#123",
+      "#124",
+      "#125",
+      "#126",
+      "#127",
+      "#128",
+      "#129",
+      "#130",
+      "#131",
+      "#132",
+      "#133",
+      "#134",
+      "#135",
+      "#136",
+      "#137",
+      "#138",
+      "#139",
+      "#140",
+      "#141",
+      "#142",
+      "#143",
+      "#144",
+      "#145",
+      "#146",
+      "#147",
+      "#148",
+      "#149",
+      "#150",
+      "#151",
+      "#152",
+      "#153",
+      "#154",
+      "#155",
+      "#156",
+      "#157",
+      "#158",
+      "#159",
+      "#160",
+      "#161",
+      "#162",
+      "#163",
+      "#164",
+      "#165",
+      "#166",
+      "#167",
+      "#168",
+      "#169",
+      "#170",
+      "#171",
+      "#172",
+      "#173",
+      "#174",
+      "#175",
+      "#176",
+      "#177",
+      "#178",
+      "#179",
+      "#180",
+      "#181",
+      "#182",
+      "#183",
+      "#184",
+      "#185",
+      "#186",
+      "#187",
+      "#188",
+      "#189",
+      "#190",
+      "#191",
+      "#192",
+      "#193",
+      "#194",
+      "#195",
+      "#196",
+      "#197",
+      "#198",
+      "#199",
+      "#200",
+      "#201",
+      "#202",
+      "#203",
+      "#204",
+      "#205",
+      "#206",
+      "#207",
+      "#208",
+      "#209",
+      "#210",
+      "#211",
+      "#212",
+      "#213",
+      "#214",
+      "#215",
+      "#216",
+      "#217",
+      "#218",
+      "#219",
+      "#220",
+      "#221",
+      "#222",
+      "#223",
+      "#224",
+      "#225",
+      "#226",
+      "#227",
+      "#228",
+      "#229",
+      "#230",
+      "#231",
+      "#232",
+      "#233",
+      "#234",
+      "#235",
+      "#236",
+      "#237",
+      "#238",
+      "#239",
+      "#240",
+      "#241",
+      "#242",
+      "#243",
+      "#244",
+      "#245",
+      "#246",
+      "#247",
+      "#248",
+      "#249",
+      "#250",
+      "#251",
+      "#252",
+      "#253",
+      "#254",
+      "#255",
+      "#256",
+      "#257",
+      "#258",
+      "#259",
+      "#260",
+      "#261",
+      "#262",
+      "#263",
+      "#264",
+      "#265",
+      "#266",
+      "#267",
+      "#268",
+      "#269",
+      "#270",
+      "#271",
+      "#272",
+      "#273",
+      "#274",
+      "#275",
+      "#276",
+      "#277",
+      "#278",
+      "#279",
+      "#280",
+      "#281",
+      "#282",
+      "#283",
+      "#284",
+      "#285",
+      "#286",
+      "#287",
+      "#288",
+      "#289",
+      "#290",
+      "#291",
+      "#292",
+      "#293",
+      "#294",
+      "#295",
+      "#296",
+      "#297",
+      "#298",
+      "#299",
+      "#300",
+      "#301",
+      "#302",
+      "#303",
+      "#304",
+      "#305",
+      "#306",
+      "#307",
+      "#308",
+      "#309",
+      "#310",
+      "#311",
+      "#312",
+      "#313",
+      "#314",
+      "#315",
+      "#316",
+      "#317",
+      "#318",
+      "#319",
+      "#320",
+      "#321",
+      "#322",
+      "#323",
+      "#324",
+      "#325",
+      "#326",
+      "#327",
+      "#328",
+      "#329",
+      "#330",
+      "#331",
+      "#332",
+      "#333",
+      "#334",
+      "#335",
+      "#336",
+      "#337",
+      "#338",
+      "#339",
+      "#340",
+      "#341",
+      "#342",
+      "#343",
+      "#344",
+      "#345",
+      "#346",
+      "#347",
+      "#348",
+      "#349",
+      "#350",
+      "#351",
+      "#352",
+      "#353",
+      "#354",
+      "#355",
+      "#356",
+      "#357",
+      "#358",
+      "#359",
+      "#360",
+      "#361",
+      "#362",
+      "#363",
+      "#364",
+      "#365",
+      "#366",
+      "#367",
+      "#368",
+      "#369",
+      "#370",
+      "#371",
+      "#372",
+      "#373",
+      "#374",
+      "#375",
+      "#376",
+      "#377",
+      "#378",
+      "#379",
+      "#380",
+      "#381",
+      "#382",
+      "#383",
+      "#384",
+      "#385",
+      "#386",
+      "#387",
+      "#388",
+      "#389",
+      "#390",
+      "#391",
+      "#392",
+      "#393",
+      "#394",
+      "#395",
+      "#396",
+      "#397",
+      "#398",
+      "#399",
+      "#400",
+      "#401",
+      "#402",
+      "#403",
+      "#404",
+      "#405",
+      "#406",
+      "#407",
+      "#408",
+      "#409",
+      "#410",
+      "#411",
+      "#412",
+      "#413",
+      "#414",
+      "#415",
+      "#416",
+      "#417",
+      "#418",
+      "#419",
+      "#420",
+      "#421",
+      "#422",
+      "#423",
+      "#424",
+      "#425",
+      "#426",
+      "#427",
+      "#428",
+      "#429",
+      "#430",
+      "#431",
+      "#432",
+      "#433",
+      "#434",
+      "#435",
+      "#436",
+      "#437",
+      "#438",
+      "#439",
+      "#440",
+      "#441",
+      "#442",
+      "#443",
+      "#444",
+      "#445",
+      "#446",
+      "#447",
+      "#448",
+      "#449",
+      "#450",
+      "#451",
+      "#452",
+      "#453",
+      "#454",
+      "#455",
+      "#456",
+      "#457",
+      "#458",
+      "#459",
+      "#460",
+      "#461",
+      "#462",
+      "#463",
+      "#464",
+      "#465",
+      "#466",
+      "#467",
+      "#468",
+      "#469",
+      "#470",
+      "#471",
+      "#472",
+      "#473",
+      "#474",
+      "#475",
+      "#476",
+      "#477",
+      "#478",
+      "#479",
+      "#480",
+      "#481",
+      "#482",
+      "#483",
+      "#484",
+      "#485",
+      "#486",
+      "#487",
+      "#488",
+      "#489",
+      "#490",
+      "#491",
+      "#492",
+      "#493",
+      "#494",
+      "#495",
+      "#496",
+      "#497",
+      "#498",
+      "#499",
+      "#500",
+      "#501",
+      "#502",
+      "#503",
+      "#504",
+      "#505",
+      "#506",
+      "#507",
+      "#508",
+      "#509",
+      "#510",
+      "#511",
+      "#512",
+      "#513",
+      "#514",
+      "#515",
+      "#516",
+      "#517",
+      "#518",
+      "#519",
+      "#520",
+      "#521",
+      "#522",
+      "#523",
+      "#524",
+      "#525",
+      "#526",
+      "#527",
+      "#528",
+      "#529",
+      "#530",
+      "#531",
+      "#532",
+      "#533",
+      "#534",
+      "#535",
+      "#536",
+      "#537",
+      "#538",
+      "#539",
+      "#540",
+      "#541",
+      "#542",
+      "#543",
+      "#544",
+      "#545",
+      "#546",
+      "#547",
+      "#548",
+      "#549",
+      "#550",
+      "#551",
+      "#552",
+      "#553",
+      "#554",
+      "#555",
+      "#556",
+      "#557",
+      "#558",
+      "#559",
+      "#560",
+      "#561",
+      "#562",
+      "#563",
+      "#564",
+      "#565",
+      "#566",
+      "#567",
+      "#568",
+      "#569",
+      "#570",
+      "#571",
+      "#572",
+      "#573",
+      "#574",
+      "#575",
+      "#576",
+      "#577",
+      "#578",
+      "#579",
+      "#580",
+      "#581",
+      "#582",
+      "#583",
+      "#584",
+      "#585",
+      "#586",
+      "#587",
+      "#588",
+      "#589",
+      "#590",
+      "#591",
+      "#592",
+      "#593",
+      "#594",
+      "#595",
+      "#596",
+      "#597",
+      "#598",
+      "#599",
+      "#600",
+      "#601",
+      "#602",
+      "#603",
+      "#604",
+      "#605",
+      "#606",
+      "#607",
+      "#608",
+      "#609",
+      "#610",
+      "#611",
+      "#612",
+      "#613",
+      "#614",
+      "#615",
+      "#616",
+      "#617",
+      "#618",
+      "#619",
+      "#620",
+      "#621",
+      "#622",
+      "#623",
+      "#624",
+      "#625",
+      "#626",
+      "#627",
+      "#628",
+      "#629",
+      "#630",
+      "#631",
+      "#632",
+      "#633",
+      "#634",
+      "#635",
+      "#636",
+      "#637",
+      "#638",
+      "#639",
+      "#640",
+      "#641",
+      "#642",
+      "#643",
+      "#644",
+      "#645",
+      "#646",
+      "#647",
+      "#648",
+      "#649",
+      "#808",
+      "#809"
+    ],
+    "allUserPokemon": {
+      "#247": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#025": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#358": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#180": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#291": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#136": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#273": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#477": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#043": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#008": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#126": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#465": {
+        "isWant": false, 
+        "isLucky": false
+      },
+      "#496": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#239": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#114": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#478": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#394": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#248": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#172": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#359": {
+        "isWant": false, 
+        "isLucky": false
+      },
+      "#283": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#035": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#368": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#146": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#137": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#599": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#377": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#155": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#009": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#488": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#018": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#070": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#127": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#395": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#027": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#138": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#262": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#182": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#258": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#293": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#147": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#191": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#045": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#378": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#156": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#080": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#054": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#165": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#019": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#498": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#396": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#174": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#028": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#285": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#489": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#148": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#466": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#115": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#479": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#379": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#157": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#250": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#072": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#388": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#166": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#499": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#116": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#175": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#286": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#129": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#251": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#295": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#038": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#149": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#073": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#193": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#047": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#158": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#455": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#468": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#056": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#264": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#117": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#308": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#287": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#456": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#469": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#118": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#185": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#039": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#296": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#591": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#194": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#048": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#309": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#240": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#062": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#057": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#253": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#444": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#648": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#066": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#177": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#288": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#119": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#297": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#075": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#592": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#241": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#195": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#049": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#084": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#445": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#093": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#169": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#267": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#458": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#107": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#289": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#649": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#580": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#593": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#298": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#076": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#242": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#255": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#196": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#085": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#446": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#268": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#094": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#390": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#065": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#434": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#256": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#068": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#447": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#269": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#013": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#188": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#299": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#382": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#328": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#086": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#265": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#537": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#367": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#284": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#067": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#120": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#145": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#071": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#415": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#168": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#209": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#113": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#334": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#556": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#564": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#276": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#087": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#230": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#261": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#270": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#356": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#646": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#364": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#051": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#275": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#219": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#475": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#178": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#217": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#079": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#452": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#192": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#306": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#199": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#232": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#162": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#526": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#097": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#369": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#376": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#016": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#022": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#212": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#398": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#585": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#638": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#427": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#476": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#077": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#064": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#089": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#355": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#154": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#021": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#098": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#161": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#088": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#418": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#128": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#562": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#044": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#198": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#497": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#078": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#435": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#436": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#150": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#279": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#385": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#207": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#173": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#099": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#121": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#163": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#108": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#384": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#001": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#036": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#058": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#082": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#197": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#357": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#569": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#216": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#370": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#060": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#101": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#104": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#184": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#586": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#457": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#433": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#109": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#024": {
+        "isWant:": false,
+        "isLucky": true
+      },
+      "#055": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#139": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#218": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#596": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#083": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#319": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#438": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#059": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#277": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#386": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#589": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#534": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#399": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#459": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#314": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#587": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#581": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#171": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#568": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#472": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#237": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#566": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#363": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#102": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#483": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#186": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#007": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#090": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#004": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#141": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#026": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#392": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#557": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#290": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#063": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#576": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#271": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#387": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#332": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#565": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#037": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#179": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#341": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#091": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#323": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#487": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#480": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#243": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#181": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#594": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#317": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#558": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#343": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#628": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#417": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#563": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#187": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#096": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#164": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#545": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#005": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#020": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#017": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#467": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#482": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#259": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#484": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#493": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#225": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#372": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#464": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#294": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#278": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#176": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#069": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#450": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#183": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#050": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#034": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#012": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#266": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#318": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#389": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#371": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#190": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#429": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#644": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#554": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#274": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#205": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#246": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#106": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#105": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#393": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#453": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#263": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#167": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#315": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#228": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#431": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#159": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#257": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#350": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#598": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#252": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#561": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#053": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#095": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#249": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#052": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#405": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#406": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#333": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#597": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#074": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#015": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#609": {
+        "isWant": false,      
+        "isLucky": false
+      },
+      "#245": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#092": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#292": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#046": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#110": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#254": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#061": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#189": {
+        "isWant": false,  
+        "isLucky": false
+      },
+      "#081": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#397": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#495": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#125": {
+        "isWant": false, 
+        "isLucky": false
+      },
+      "#345": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#143": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#144": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#600": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#601": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#610": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#602": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#611": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#500": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#620": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#603": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#612": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#501": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#510": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#808": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#621": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#630": {
+        "isWant": true, 
+        "isLucky": false
+      },
+      "#604": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#502": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#613": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#400": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#809": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#511": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#622": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#520": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#631": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#640": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#605": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#503": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#614": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#401": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#623": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#512": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#410": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#632": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#521": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#530": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#641": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#606": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#615": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#504": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#402": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#624": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#513": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#633": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#522": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#411": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#300": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#642": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#420": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#531": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#607": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#540": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#616": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#505": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#403": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#514": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#625": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#412": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#523": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#301": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#634": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#532": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#310": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#421": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#608": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#430": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#617": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#506": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#541": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#550": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#515": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#626": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#404": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#643": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#524": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#302": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#635": {
+        "isWant": false,     
+        "isLucky": false
+      },
+      "#413": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#422": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#200": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#533": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#311": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#542": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#618": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#507": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#320": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#551": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#627": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#440": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#516": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#560": {
+        "isWant": true,       
+        "isLucky": true
+      },
+      "#525": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#303": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#636": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#414": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#423": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#201": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#312": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#645": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#210": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#619": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#543": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#321": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#552": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#517": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#508": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#441": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#432": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#304": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#637": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#330": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#570": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#424": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#202": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#535": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#313": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#211": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#544": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#322": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#100": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#220": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#629": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#553": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#407": {
+        "isWant": false,  
+        "isLucky": false
+      },
+      "#340": {
+        "isWant": true,  
+        "isLucky": true
+      },
+      "#416": {
+        "isWant": true,  
+        "isLucky": true
+      },
+      "#331": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#527": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#571": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#425": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#203": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#536": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#460": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#518": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#451": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#305": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#509": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#221": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#408": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#519": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#442": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#443": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#639": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#528": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#647": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#572": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#426": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#204": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#461": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#470": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#213": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#546": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#324": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#590": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#222": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#555": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#409": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#111": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#231": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#342": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#529": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#307": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#573": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#351": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#538": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#462": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#582": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#360": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#214": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#547": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#471": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#223": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#325": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#112": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#316": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#010": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#419": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#454": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#103": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#574": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#428": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#352": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#206": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#583": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#437": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#361": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#215": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#548": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#224": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#002": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#481": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#490": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#233": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#011": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#344": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#130": {
+        "isWant": true, 
+        "isLucky": false
+      },
+      "#575": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#353": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#131": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#335": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#584": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#362": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#140": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#549": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#539": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#003": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#336": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#473": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#380": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#234": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#567": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#491": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#122": {
+        "isWant": true, 
+        "isLucky": false
+      },
+      "#354": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#208": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#132": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#326": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#030": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#439": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#474": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#123": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#327": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#448": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#226": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#559": {
+        "isWant": false,   
+        "isLucky": false
+      },
+      "#381": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#235": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#492": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#346": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#337": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#244": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#577": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#133": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#124": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#031": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#142": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#463": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#329": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#040": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#595": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#449": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#373": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#227": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#236": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#160": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#014": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#391": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#578": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#023": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#151": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#347": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#365": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#280": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#134": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#338": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#041": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#374": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#152": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#006": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#383": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#494": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#348": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#485": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#170": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#579": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#281": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#135": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#339": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#588": {
+        "isWant": false,
+        "isLucky": true
+      },
+      "#033": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#366": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#272": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#042": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#375": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#229": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#153": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#486": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#238": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#349": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#260": {
+        "isWant": true,
+        "isLucky": true
+      },
+      "#282": {
+        "isWant": true,
+        "isLucky": false
+      },
+      "#029": {
+        "isWant": false,
+        "isLucky": false
+      },
+      "#032": {
+        "isWant": false,
+        "isLucky": false
+      }
+    }
+  }
+  

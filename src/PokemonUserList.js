@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 import Tag from './Tag'
+import regions from './regions.json'
 
 const PokemonStyled = styled.section`
   display: grid;
@@ -57,15 +58,17 @@ const PokemonStyled = styled.section`
 
 export default function PokemonUserList({
   pokedexId,
+  userData,
   image,
   pokemonName,
   region,
   types = [],
-  isWant,
-  isLucky,
   toggleIsWant,
   toggleIsLucky,
 }) {
+  if (!userData) {
+    throw Error("no UserData for " + pokedexId)
+  }
   return (
     <PokemonStyled>
       <div className="ImageColumn">
@@ -75,7 +78,7 @@ export default function PokemonUserList({
         <div className="Text">
           <p>{pokedexId}</p>
           <p className="PokemonName">{pokemonName}</p>
-          <p>{region}</p>
+  <p>{regions[region].name + ", Gen " + regions[region].gen}</p>
           {types.map(typ => (
             <Tag key={typ} text={typ} />
           ))}
@@ -89,7 +92,7 @@ export default function PokemonUserList({
             id="Want"
             name="Want"
             onChange={toggleIsWant}
-            checked={isWant}
+            checked={userData.isWant}
           />
           <label htmlFor="Lucky">
             <div className="descriptionCheckbox">Lucky?</div>
@@ -99,7 +102,7 @@ export default function PokemonUserList({
             id="Lucky"
             name="Lucky"
             onChange={toggleIsLucky}
-            checked={isLucky}
+            checked={userData.isLucky}
           />
         </div>
       </div>
