@@ -1,7 +1,7 @@
 import React from 'react'
 import PokemonUserList from './PokemonUserList'
 
-export default function AllPokemon({ pokedex, toggle }) {
+export default function AllPokemon({ pokedex, userData, toggle }) {
   return (
     <div>
       {pokedex.allPokemonIds
@@ -9,6 +9,7 @@ export default function AllPokemon({ pokedex, toggle }) {
         .map(pokemon => (
           <PokemonUserList
             pokemon={pokemon}
+            userData={userData.allUserPokemon[pokemon.pokedexId]}
             key={pokemon.pokedexId}
             pokedexId={pokemon.pokedexId}
             id={pokemon.pokedexId}
@@ -16,8 +17,6 @@ export default function AllPokemon({ pokedex, toggle }) {
             pokemonName={pokemon.pokemonName}
             region={pokemon.region}
             types={pokemon.types}
-            isWant={pokemon.isWant}
-            isLucky={pokemon.isLucky}
             toggleIsWant={() => toggle('isWant', pokemon.pokedexId)}
             toggleIsLucky={() => toggle('isLucky', pokemon.pokedexId)}
           />

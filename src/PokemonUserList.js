@@ -58,15 +58,17 @@ const PokemonStyled = styled.section`
 
 export default function PokemonUserList({
   pokedexId,
+  userData,
   image,
   pokemonName,
   region,
   types = [],
-  isWant,
-  isLucky,
   toggleIsWant,
   toggleIsLucky,
 }) {
+  if (!userData) {
+    throw Error("no UserData for " + pokedexId)
+  }
   return (
     <PokemonStyled>
       <div className="ImageColumn">
@@ -90,7 +92,7 @@ export default function PokemonUserList({
             id="Want"
             name="Want"
             onChange={toggleIsWant}
-            checked={isWant}
+            checked={userData.isWant}
           />
           <label htmlFor="Lucky">
             <div className="descriptionCheckbox">Lucky?</div>
@@ -100,7 +102,7 @@ export default function PokemonUserList({
             id="Lucky"
             name="Lucky"
             onChange={toggleIsLucky}
-            checked={isLucky}
+            checked={userData.isLucky}
           />
         </div>
       </div>

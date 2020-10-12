@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import pokedexData from './pokedex.json'
+import pokedex from './pokedex.json'
+import storedUserData from './user.json'
 import { BrowserRouter as Router, Switch, Link, Route } from 'react-router-dom'
 import GlobalStyle from './GlobalStyle'
 import Header from './Header'
@@ -12,7 +13,7 @@ import Login from './Login'
 import SignUp from './SignUp'
 
 export default function App() {
-  const [pokedex, setPokedex] = useState(pokedexData)
+  const [userData, setUserData] = useState(storedUserData)
 
   return (
     <div className="App">
@@ -35,24 +36,22 @@ export default function App() {
         </Header>
         <Switch>
           <Route exact path="/">
-            <AllPokemon pokedex={pokedex} toggle={toggle} />
+            <AllPokemon pokedex={pokedex} userData={userData} toggle={toggle} />
           </Route>
           <Route path="/overview">
             <Overview />
           </Route>
           <Route path="/wanted">
-            <FilterWant pokedex={pokedex} toggle={toggle} />
+            <FilterWant pokedex={pokedex} userData={userData} toggle={toggle} />
           </Route>
           <Route path="/lucky">
-            <FilterLucky pokedex={pokedex} toggle={toggle} />
+            <FilterLucky pokedex={pokedex} userData={userData} toggle={toggle} />
           </Route>
           <Route path="/login">
             <Login />
           </Route>
-          <Route>
-            <Route path="/signup">
-              <SignUp />
-            </Route>
+          <Route path="/signup">
+            <SignUp />
           </Route>
         </Switch>
       </Router>
@@ -60,17 +59,17 @@ export default function App() {
   )
 
   function toggle(propertyName, pokedexId) {
-    const oldPokemon = pokedex.allPokemon[pokedexId]
+    const oldPokemon = userData.allUserPokemon[pokedexId]
     // copy and modify pokemon
     const pokemon = {
       ...oldPokemon,
       [propertyName]: !oldPokemon[propertyName],
     }
     // copy all pokemon and overwrite for pokedexId
-    const allPokemon = { ...pokedex.allPokemon, [pokedexId]: pokemon }
+    const allPokemon = { ...userData.allUserPokemon, [pokedexId]: pokemon }
     // copy pokedex and overwrite allPokemon
-    const newPokedex = { ...pokedex, allPokemon: allPokemon }
+    const newPokedex = { ...userData, allUserPokemon: allPokemon }
 
-    setPokedex(newPokedex)
+    setUserData(newPokedex)
   }
 }
