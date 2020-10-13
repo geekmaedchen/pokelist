@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components/macro'
 import Tag from './Tag'
 import regions from './regions.json'
+import assert from './assert'
 
 const PokemonStyled = styled.section`
   display: grid;
@@ -66,9 +67,10 @@ export default function PokemonUserList({
   toggleIsWant,
   toggleIsLucky,
 }) {
-  if (!userData) {
-    throw Error("no UserData for " + pokedexId)
-  }
+  assert(userData, "no UserData for " + pokedexId)
+  assert(typeof userData.isWant !== "undefined", "missing isWant for " + pokedexId + ": " + (typeof userData.isWant))
+  assert(typeof userData.isLucky !== "undefined", "missing isLucky for " + pokedexId + ": " + (typeof userData.isLucky))
+
   return (
     <PokemonStyled>
       <div className="ImageColumn">
