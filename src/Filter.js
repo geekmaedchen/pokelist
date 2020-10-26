@@ -17,7 +17,18 @@ export default class Filter extends Component {
             </div>
         )  
     }
-
+    isRegionDisabled() {
+        // Variant A
+        return this.state.filters.length === 1
+        // Variant B
+        // return this.state.filters.length === 1 ? true : false
+        // Variant C
+        // if (this.state.filters.length === 1) {
+        //     return true
+        // } else {
+        //     return false
+        // }
+    }
     handleChange = event => {        
         event.preventDefault()
         
@@ -30,7 +41,9 @@ export default class Filter extends Component {
                 ]
             }
             this.setState(newState)
-            console.log("new state", newState)
+            // event.target.options[1].setAttribute("selected", false)
+            // event.target.options[0].setAttribute("selected", true)
+            // console.log("new state", newState)
         }
     } 
 
@@ -39,8 +52,8 @@ export default class Filter extends Component {
             <div>
                 <label htmlFor="filter">Filter?</label>
                 <select onChange={this.handleChange}>
-                    <option>Add filter</option>
-                    <option>Region</option>
+                    <option disabled selected>Add filter</option>
+                    <option disabled={this.isRegionDisabled()}>Region</option>
                 </select>
                 {this.createFilter()}
                 <div className="hidden"><RegionFilter></RegionFilter></div>

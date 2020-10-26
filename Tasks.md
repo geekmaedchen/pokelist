@@ -5,9 +5,17 @@
 ## TODO
 1. Filter.js: Region-Filter bekommt Property "selected" mit Wert "null"
 
+## Montag, 26.10.2020
+1. Filter.js:wenn regionsfilter erzeugt wurde, darf region nicht erneut ausgewählt werden können
+
+## Freitag, 23.10.2020
+-> / 
+
+## Donnerstag, 22.10.2020
+-> Termine
+
 ## Mittwoch, 21.10.2020
 1. Filter.js: für jeden filter in state.filters einen <p> erzeugen, indem filtername steht
-2. Filter.js:wenn regionsfilter erzeugt wurde, darf region nicht erneut ausgewählt werden können
 
 ## Dienstag, 20.10.2020
 -> krank
