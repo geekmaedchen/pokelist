@@ -1,19 +1,44 @@
 ## Longterm
 - PokemonNamen auf Deutsch
-- alle Funktionen klein schreiben, Komponenten?
+- serviceWorker mit Marco besprechen (raus?)
 
-## Mittwoch, 12.10.2020
+## TODO
+1. Filter.js: Region-Filter bekommt Property "selected" mit Wert "null"
+
+## Mittwoch, 21.10.2020
+1. Filter.js: für jeden filter in state.filters einen <p> erzeugen, indem filtername steht
+2. Filter.js:wenn regionsfilter erzeugt wurde, darf region nicht erneut ausgewählt werden können
+
+## Dienstag, 20.10.2020
+-> krank
+
+## Montag, 19.10.2020
+-> krank
+
+## Freitag, 16.10.2020
+1. Filter.js: wenn regions ausgewählt, füge ich dem array folgendes object hinzu:
+    {name: "region"}
+
+## Donnerstag, 15.10.2020
+1. Filter.js: Im "state" ein Property namens "filters", am anfang leeres array      `elements = []`
+2. Filter.js: wenn regions ausgewählt, füge ich dem array folgendes object hinzu:
+    {name: "region"}
+
+## Mittwoch, 14.10.2020
 1. Dateinamen aufräumen, Komponenten groß, Funktionen & Daten klein
+    - serviceWorker? (im Kurs immer klein)
+    - index? (Konvention und daher richtig)
 2. Filter.js umbenennen in RegionFilter auch innerhalb der Dateien
-3. neue Filter.js (darin alle Filter vereinigen) select option einbauen mit 2 optionen 
+3. neue Filter.js (darin alle Filter vereinigen) 
+    select option einbauen mit 2 optionen 
     1. Filter hinzufügen, ausgegraut
     2. Region
 
-## Dienstag, 11.10.2020
+## Dienstag, 13.10.2020
 1. Throw Error-Funktion auslagern und universell benutzen
 2. Bugfixing :)))
 
-## Montag, 10.10.2020
+## Montag, 12.10.2020
 1. Entfernen der isWant und isLucky Daten aus dem Pokedex
 2. Mergen des Login-Branch
 3. Umbenennen des Master in Main 

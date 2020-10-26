@@ -6,6 +6,10 @@ const GlobalStyle = createGlobalStyle`
   font-family: sans-serif;
   background-color: hsl(102, 30%, 97%)
 }
+
+.hidden {
+  display: none
+}
 `
 
 export default GlobalStyle
