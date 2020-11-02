@@ -18,16 +18,7 @@ export default class Filter extends Component {
         )  
     }
     isRegionDisabled() {
-        // Variant A
-        return this.state.filters.length === 1
-        // Variant B
-        // return this.state.filters.length === 1 ? true : false
-        // Variant C
-        // if (this.state.filters.length === 1) {
-        //     return true
-        // } else {
-        //     return false
-        // }
+        return this.state.filters.map(filter => filter.name).includes("region")
     }
     handleChange = event => {        
         event.preventDefault()
@@ -37,13 +28,22 @@ export default class Filter extends Component {
                 ...this.state,
                 filters: [
                     ...this.state.filters,
-                    {name: "region"}
+                    {name: "region", region: null}
                 ]
             }
             this.setState(newState)
-            // event.target.options[1].setAttribute("selected", false)
-            // event.target.options[0].setAttribute("selected", true)
-            // console.log("new state", newState)
+            console.log("new state", newState)
+        }
+        else if (event.target.options[2].selected === true) {
+            const newState = {
+                ...this.state,
+                filters: [
+                    ...this.state.filters,
+                    {name: "type", type: null}
+                ]
+            }
+            this.setState(newState)
+            console.log("new state", newState)
         }
     } 
 
@@ -54,6 +54,7 @@ export default class Filter extends Component {
                 <select onChange={this.handleChange}>
                     <option disabled selected>Add filter</option>
                     <option disabled={this.isRegionDisabled()}>Region</option>
+                    <option>Type</option>
                 </select>
                 {this.createFilter()}
                 <div className="hidden"><RegionFilter></RegionFilter></div>

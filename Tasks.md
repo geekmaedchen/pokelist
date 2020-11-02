@@ -1,9 +1,33 @@
 ## Longterm
-- PokemonNamen auf Deutsch
+- Sprachwechsel ermöglichen (Englisch/Deutsch)
 - serviceWorker mit Marco besprechen (raus?)
+- Filter.js selected soll wieder zurück auf "Add filter" springen
+- Default Pokemon-Bild (Pokeball) für Pokemon, für die es keine Bilder gibt (Meltan & Melmetal)
 
 ## TODO
 1. Filter.js: Region-Filter bekommt Property "selected" mit Wert "null"
+
+## Dienstag, 03.11.2020
+1. Schreibe createFilter() um, sodass map 2 mal benutzt wird 1. so wie in isRegionDisabled() und 2. zum Erzeugen des jsx
+2. Ausgrauen, wenn 2 Typen ausgewählt sind
+
+## Montag, 02.11.2020
+Must: 10 Seiten in "Eloquent Javascript" lesen!
+1. Für den Regionsfilter: {name: "region", region: null}
+2. bei Add Filter Option: Typ hinzufügen mit {name: "type", type: null}
+3. wenn filter typ hinzugefügt, dann zeige "type" im HTML an
+
+## Freitag, 30.10.2020
+-> Urlaub
+
+## Donnerstag, 29.10.2020
+-> Urlaub
+
+## Mittwoch, 28.10.2020
+-> Termine
+
+## Dienstag, 27.10.2020
+-> Termine
 
 ## Montag, 26.10.2020
 1. Filter.js:wenn regionsfilter erzeugt wurde, darf region nicht erneut ausgewählt werden können
