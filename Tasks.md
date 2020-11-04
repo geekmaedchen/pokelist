@@ -6,10 +6,20 @@
 
 ## TODO
 1. Filter.js: Region-Filter bekommt Property "selected" mit Wert "null"
+2. "Add filter" disabled und Auswählen funktioniert trotzdem
+
+## Donnerstag, 05.11.2020
+1. im 2. if-Block von handleChange() den "region" ersetzen durch Variable
+2. im 3. if-Block von handleChange() den "type" ersetzen durch Variable
+Bonus: `region: ` im 2. if-Block durch Variable ersetzen, ebenso im 3. für `type: `
+
+## Mittwoch, 04.11.2020
+1. handleChange anpassen und console.log vom option value, der selected ist
 
 ## Dienstag, 03.11.2020
-1. Schreibe createFilter() um, sodass map 2 mal benutzt wird 1. so wie in isRegionDisabled() und 2. zum Erzeugen des jsx
-2. Ausgrauen, wenn 2 Typen ausgewählt sind
+Must: 10 Seiten in "Eloquent Javascript" lesen!
+1. Ausgrauen, wenn 2 Typen ausgewählt sind (mit array.filter())
+2. options value property geben: region, type
 
 ## Montag, 02.11.2020
 Must: 10 Seiten in "Eloquent Javascript" lesen!

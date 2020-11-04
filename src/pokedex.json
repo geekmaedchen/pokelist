@@ -3325,7 +3325,7 @@
       "pokedexId": "#808",
       "pokemonName": "Meltan",
       "types": ["steel"],
-      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/808.png"
+      "image": ""
     },
     "#621": {
       "region": "unova",
@@ -3374,7 +3374,7 @@
       "pokedexId": "#809",
       "pokemonName": "Melmetal",
       "types": ["steel"],
-      "image": "https://www.pkparaiso.com/imagenes/shuffle/sprites/809.png"
+      "image": ""
     },
     "#511": {
       "region": "unova",

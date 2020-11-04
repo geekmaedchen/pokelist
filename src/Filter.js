@@ -13,16 +13,31 @@ export default class Filter extends Component {
     createFilter() {
         return (
             <div>
-              {this.state.filters.map(filter => (<h1>{filter.name}</h1>))}
+              {this.state.filters
+                .map(filter => (<h1>{filter.name}</h1>))}
             </div>
         )  
     }
     isRegionDisabled() {
-        return this.state.filters.map(filter => filter.name).includes("region")
+        return this.state.filters
+            .map(filter => filter.name)
+            .includes("region")
+    }
+    isTypeDisabled() {
+        return this.state.filters
+            .map(filter => filter.name)
+            .filter(filterName => filterName === "type")
+            .length >= 2
     }
     handleChange = event => {        
         event.preventDefault()
-        
+        const options = Array.apply(null, event.target.options)
+        const selected = options.filter(option => option.selected)
+        if (selected.length === 0) {
+            return
+        }
+        console.log("value:" + selected[0].value)
+
         if (event.target.options[1].selected === true) {
             const newState = {
                 ...this.state,
@@ -52,9 +67,9 @@ export default class Filter extends Component {
             <div>
                 <label htmlFor="filter">Filter?</label>
                 <select onChange={this.handleChange}>
-                    <option disabled selected>Add filter</option>
-                    <option disabled={this.isRegionDisabled()}>Region</option>
-                    <option>Type</option>
+                    <option value="" defaultValue>Add filter</option>
+                    <option value="region" disabled={this.isRegionDisabled()}>Region</option>
+                    <option value="type" disabled={this.isTypeDisabled()}>Type</option>
                 </select>
                 {this.createFilter()}
                 <div className="hidden"><RegionFilter></RegionFilter></div>
