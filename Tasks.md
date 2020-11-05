@@ -1,17 +1,23 @@
 ## Longterm
 - Sprachwechsel ermöglichen (Englisch/Deutsch)
 - serviceWorker mit Marco besprechen (raus?)
-- Filter.js selected soll wieder zurück auf "Add filter" springen
 - Default Pokemon-Bild (Pokeball) für Pokemon, für die es keine Bilder gibt (Meltan & Melmetal)
 
 ## TODO
-1. Filter.js: Region-Filter bekommt Property "selected" mit Wert "null"
-2. "Add filter" disabled und Auswählen funktioniert trotzdem
+1. 
+
+## Freitag, 06.11.2020
+1. Funktion isFilterDisabled(filter: String), wenn Filter === region, dann rufe isRegionDisabled auf, wenn Filter === type, rufe isTypeDisabled auf, sonst return true
+2. im jsx ersetze isRegionDisabled und isTypeDisabled durch isFilterDisabled
 
 ## Donnerstag, 05.11.2020
 1. im 2. if-Block von handleChange() den "region" ersetzen durch Variable
 2. im 3. if-Block von handleChange() den "type" ersetzen durch Variable
 Bonus: `region: ` im 2. if-Block durch Variable ersetzen, ebenso im 3. für `type: `
+        Besserer Name für "Variable"
+        Bessere key prop in Filter.js bei createFilter() <h1>
+        "Add filter" disabled und Auswählen funktioniert trotzdem
+        Filter.js selected soll wieder zurück auf "Add filter" springen
 
 ## Mittwoch, 04.11.2020
 1. handleChange anpassen und console.log vom option value, der selected ist
