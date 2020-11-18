@@ -21,13 +21,14 @@ export default class Filter extends Component {
     }
 
     isFilterDisabled(selectValue) {
-        if (selectValue === "region") {
+        switch(selectValue) {
+        case "region":
             return this.isRegionDisabled()
-        }
-        if (selectValue === "type") {
+        case "type":
             return this.isTypeDisabled()
+        default:
+            return true
         }
-        return true
     }
 
     isRegionDisabled() {
