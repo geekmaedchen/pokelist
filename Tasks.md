@@ -6,7 +6,7 @@
 ## TODO
 1. 
 
-## Freitag, 06.11.2020
+## Montag, 16.11.2020
 1. Funktion isFilterDisabled(filter: String), wenn Filter === region, dann rufe isRegionDisabled auf, wenn Filter === type, rufe isTypeDisabled auf, sonst return true
 2. im jsx ersetze isRegionDisabled und isTypeDisabled durch isFilterDisabled
 

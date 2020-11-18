@@ -20,6 +20,16 @@ export default class Filter extends Component {
         )  
     }
 
+    isFilterDisabled(selectValue) {
+        if (selectValue === "region") {
+            return this.isRegionDisabled()
+        }
+        if (selectValue === "type") {
+            return this.isTypeDisabled()
+        }
+        return true
+    }
+
     isRegionDisabled() {
         return this.state.filters
             .map(filter => filter.name)
@@ -64,8 +74,8 @@ export default class Filter extends Component {
                 <label htmlFor="filter">Filter?</label>
                 <select value="" onChange={this.handleChange}>
                     <option value="" disabled>Add filter</option>
-                    <option value="region" disabled={this.isRegionDisabled()}>Region</option>
-                    <option value="type" disabled={this.isTypeDisabled()}>Type</option>
+                    <option value="region" disabled={this.isFilterDisabled("region")}>Region</option>
+                    <option value="type" disabled={this.isFilterDisabled("type")}>Type</option>
                 </select>
                 {this.createFilter()}
                 <div className="hidden"><RegionFilter></RegionFilter></div>

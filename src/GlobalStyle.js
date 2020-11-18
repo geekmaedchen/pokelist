@@ -17,7 +17,6 @@ select {
 }
 
 
-
 .hidden {
   display: none
 }
